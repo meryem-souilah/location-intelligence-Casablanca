@@ -1,0 +1,31 @@
+table Dim_Marque
+
+	column marque
+		dataType: string
+		summarizeBy: none
+		sourceColumn: marque
+
+	column agences
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: agences
+
+	column part_agences_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: part_agences_pct
+
+	column est_client
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: est_client
+
+	partition Dim_Marque = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "dim_marques.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"marque", type text}, {"agences", Int64.Type}, {"part_agences_pct", type number}, {"est_client", type logical}}, "en-US")
+				in
+				    Types

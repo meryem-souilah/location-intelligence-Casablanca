@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Où ouvrir 3 agences bancaires à Casablanca : score H3, simulateur de pondérations, modèle de Huff et qualité des données.">
+<title>Atlas des agences Casablanca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --ground: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #111a22;
+  --ink-2: #4d5a66;
+  --muted: #7d8994;
+  --line: #dde3e8;
+  --line-strong: #b4bec7;
+  --client: #e2622b;
+  --dot: #56616b;
+  --excl: #e3e6e9;
+  --good: #1d8a3a;
+  --warn: #b7791f;
+  --todo: #2f6fb8;
+  --q1: #dbe9fa; --q2: #a9cbf2; --q3: #6fa6e8; --q4: #3a83d8; --q5: #2361b2; --q6: #133f78;
+  --focus: #2f6fb8;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0d1217; --surface: #151c23; --ink: #e8edf1; --ink-2: #aab5bf; --muted: #7f8b96;
+    --line: #25303a; --line-strong: #3c4955; --client: #f0773f; --dot: #9aa6b1; --excl: #222b33;
+    --good: #45b766; --warn: #e0a444; --todo: #6aa6ea;
+    --q1: #1a2d44; --q2: #1f4570; --q3: #2a64a6; --q4: #3d84d4; --q5: #6ba7ea; --q6: #acd0f7;
+    --focus: #6aa6ea;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0d1217; --surface: #151c23; --ink: #e8edf1; --ink-2: #aab5bf; --muted: #7f8b96;
+  --line: #25303a; --line-strong: #3c4955; --client: #f0773f; --dot: #9aa6b1; --excl: #222b33;
+  --good: #45b766; --warn: #e0a444; --todo: #6aa6ea;
+  --q1: #1a2d44; --q2: #1f4570; --q3: #2a64a6; --q4: #3d84d4; --q5: #6ba7ea; --q6: #acd0f7;
+  --focus: #6aa6ea;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 15px/1.55 var(--sans); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 56px; }
+h1, h2, h3 { margin: 0; line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(26px, 3.4vw, 36px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 20px; font-weight: 600; }
+h3 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); }
+p { margin: 0; }
+.mono { font-family: var(--mono); }
+.num { font-variant-numeric: tabular-nums; }
+
+header.top { display: grid; gap: 6px; margin-bottom: 20px; }
+.eyebrow { font: 500 12px/1.4 var(--mono); color: var(--ink-2); letter-spacing: 0.02em; }
+.eyebrow b { color: var(--client); font-weight: 500; }
+.sources { font-size: 12.5px; color: var(--muted); }
+
+nav.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--line); margin-bottom: 24px; overflow-x: auto; }
+nav.tabs button {
+  appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  padding: 10px 14px; font: 500 14px var(--sans); color: var(--ink-2); cursor: pointer; white-space: nowrap;
+}
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+nav.tabs button:hover { color: var(--ink); }
+button:focus-visible, input:focus-visible, select:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--focus); outline-offset: 2px;
+}
+
+section.page { display: grid; gap: 24px; }
+.lead { font-size: 18px; max-width: 70ch; color: var(--ink); }
+.lead strong { font-weight: 600; }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line);
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px; }
+.kpi .v { font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.kpi .l { font-size: 12.5px; color: var(--ink-2); }
+
+.split { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.split.rev { grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.7fr); }
+@media (max-width: 900px) { .split, .split.rev { grid-template-columns: 1fr; } }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.note { font-size: 12.5px; color: var(--muted); }
+
+.map svg { width: 100%; height: auto; display: block; }
+.map .hexes path { stroke: var(--surface); stroke-width: 1.2; cursor: pointer; }
+.map .hexes path:hover { stroke: var(--ink); stroke-width: 2; }
+.map .arr path { fill: none; stroke: var(--line-strong); stroke-width: 1; pointer-events: none; }
+.map .sel { fill: none; stroke: var(--ink); stroke-width: 3.2; pointer-events: none; }
+.map .badge circle { fill: var(--ink); stroke: var(--surface); stroke-width: 2; }
+.map .badge text { fill: var(--surface); font: 600 15px var(--sans); text-anchor: middle; dominant-baseline: central; }
+.map .badge.sm text { font-size: 10.5px; }
+.map .badge.sm circle { stroke-width: 1.2; }
+.map .dots circle { fill: var(--dot); opacity: 0.75; pointer-events: none; }
+.map .dots rect { fill: var(--client); stroke: var(--surface); stroke-width: 1.2; pointer-events: none; }
+.map .flux circle { fill: var(--q4); fill-opacity: 0.45; stroke: var(--q5); stroke-width: 0.8; pointer-events: none; }
+
+.legend { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.legend .ramp { display: flex; height: 10px; width: 160px; border-radius: 2px; overflow: hidden; }
+.legend .ramp span { flex: 1; }
+.sw { display: inline-flex; align-items: center; gap: 6px; }
+.sw i { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+.sw i.dot { border-radius: 50%; width: 8px; height: 8px; background: var(--dot); }
+.sw i.dia { width: 9px; height: 9px; background: var(--client); transform: rotate(45deg); border-radius: 1px; }
+.sw i.out { border: 2.5px solid var(--ink); background: transparent; }
+
+.recos { display: grid; gap: 12px; }
+.reco { display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 14px; border: 1px solid var(--line);
+  border-radius: 10px; background: var(--surface); cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; }
+.reco:hover { border-color: var(--line-strong); }
+.reco .n { width: 30px; height: 30px; border-radius: 50%; background: var(--ink); color: var(--surface);
+  display: grid; place-items: center; font-weight: 600; }
+.reco .t { font-weight: 600; font-size: 16px; }
+.reco .a { font-size: 13px; color: var(--ink-2); }
+.reco dl { display: grid; grid-template-columns: repeat(3, auto); gap: 4px 16px; margin: 8px 0 0; justify-content: start; }
+.reco dt { font-size: 11.5px; color: var(--muted); }
+.reco dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.bars { display: grid; gap: 6px; }
+.bar { display: grid; grid-template-columns: minmax(110px, 170px) 1fr 44px; gap: 10px; align-items: center; font-size: 13px; }
+.bar .track { height: 14px; background: transparent; }
+.bar .fill { height: 100%; background: var(--dot); border-radius: 0 3px 3px 0; opacity: 0.55; }
+.bar.client .fill { background: var(--client); opacity: 1; }
+.bar.client .name { font-weight: 600; }
+.bar .val { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th { text-align: left; font-weight: 500; font-size: 12px; color: var(--muted); padding: 6px 8px; border-bottom: 1px solid var(--line-strong); white-space: nowrap; }
+td { padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; }
+tr.click { cursor: pointer; }
+tr.click:hover td { background: var(--ground); }
+.inbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.inbar span.b { display: inline-block; height: 8px; background: var(--q4); border-radius: 0 2px 2px 0; }
+
+.sliders { display: grid; gap: 16px; }
+.slider { display: grid; gap: 4px; }
+.slider label { display: flex; justify-content: space-between; font-size: 14px; font-weight: 500; }
+.slider output { font-family: var(--mono); font-size: 13px; color: var(--ink-2); }
+.slider small { font-size: 12px; color: var(--muted); }
+input[type="range"] { width: 100%; accent-color: var(--q5); }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; }
+.presets button, .chip-btn { appearance: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  border-radius: 999px; padding: 5px 11px; font: 500 12.5px var(--sans); cursor: pointer; }
+.presets button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.applied { font-size: 12.5px; color: var(--ink-2); font-family: var(--mono); }
+.ranks { display: grid; gap: 6px; }
+.rankrow { display: flex; justify-content: space-between; gap: 8px; font-size: 13.5px; padding: 6px 0; border-top: 1px solid var(--line); }
+.rankrow b { font-variant-numeric: tabular-nums; }
+
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 500; white-space: nowrap; }
+.pill i { font-style: normal; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center;
+  font: 700 11px var(--sans); color: var(--surface); }
+.pill.ok i { background: var(--good); } .pill.ok { color: var(--good); }
+.pill.alert i { background: var(--warn); } .pill.alert { color: var(--warn); }
+.pill.info i { background: var(--muted); } .pill.info { color: var(--ink-2); }
+.pill.todo i { background: var(--todo); } .pill.todo { color: var(--todo); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px 20px; }
+.fact .l { font-size: 12px; color: var(--muted); }
+.fact .v { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.fact .v small { font-size: 12.5px; font-weight: 400; color: var(--ink-2); }
+.ind { display: grid; grid-template-columns: 150px 1fr 40px; gap: 10px; align-items: center; font-size: 13.5px; }
+.ind .track { position: relative; height: 12px; background: var(--ground); border-radius: 2px; }
+.ind .fill { position: absolute; inset: 0 auto 0 0; background: var(--q5); border-radius: 2px; }
+.ind .avg { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); }
+.ind .val { text-align: right; font-family: var(--mono); font-size: 12.5px; }
+select { font: 14px var(--sans); padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); color: var(--ink); max-width: 100%; }
+.warnbox { border-left: 3px solid var(--warn); padding: 8px 12px; background: var(--ground); font-size: 13.5px; }
+
+.dotplot svg { width: 100%; height: auto; display: block; }
+.dotplot text { fill: var(--ink-2); font: 12px var(--sans); }
+.dotplot .lbl { fill: var(--ink); }
+.dotplot .grid line { stroke: var(--line); }
+.dotplot .seg { stroke: var(--line-strong); stroke-width: 2; }
+.dotplot .k { fill: var(--surface); stroke: var(--dot); stroke-width: 2; }
+.dotplot .h { fill: var(--q5); }
+
+#tip { position: fixed; pointer-events: none; z-index: 10; background: var(--ink); color: var(--surface); padding: 8px 10px;
+  border-radius: 6px; font-size: 12.5px; line-height: 1.45; max-width: 260px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.18); }
+#tip b { font-weight: 600; }
+footer { margin-top: 36px; font-size: 12px; color: var(--muted); display: grid; gap: 4px; }
+@media (prefers-reduced-motion: no-preference) { .map .hexes path { transition: fill 0.25s ease; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Mission fictive · client <b id="client-name"></b> · 3 nouvelles agences d'ici 2027</div>
+    <h1>Où ouvrir les prochaines agences à Casablanca ?</h1>
+    <p class="sources" id="sources"></p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Pages du dashboard">
+    <button role="tab" id="t-recommandation" aria-controls="recommandation">Recommandation</button>
+    <button role="tab" id="t-concurrence" aria-controls="concurrence">Concurrence</button>
+    <button role="tab" id="t-simulateur" aria-controls="simulateur">Simulateur</button>
+    <button role="tab" id="t-zone" aria-controls="zone">Fiche zone</button>
+    <button role="tab" id="t-qualite" aria-controls="qualite">Qualité des données</button>
+  </nav>
+
+  <main>
+    <section class="page" id="recommandation" role="tabpanel" aria-labelledby="t-recommandation">
+      <p class="lead" id="reco-lead"></p>
+      <div class="kpis" id="kpis"></div>
+      <div class="split">
+        <div class="panel">
+          <div class="panel-head"><h3>Score d'opportunité par hexagone (~0,74 km²)</h3><span class="note">Pondération de référence</span></div>
+          <div class="map" id="map-reco"></div>
+          <div class="legend" id="leg-reco"></div>
+        </div>
+        <div class="recos" id="reco-list"></div>
+      </div>
+    </section>
+
+    <section class="page" id="concurrence" role="tabpanel" aria-labelledby="t-concurrence" hidden>
+      <p class="lead" id="conc-lead"></p>
+      <div class="split">
+        <div class="panel">
+          <div class="panel-head"><h3>Population et agences bancaires</h3></div>
+          <div class="map" id="map-conc"></div>
+          <div class="legend" id="leg-conc"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Agences par marque</h3><span class="note" id="brand-note"></span></div>
+          <div class="bars" id="brands"></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Habitants par agence, par arrondissement</h3><span class="note">Population RGPH 2024 · agences OpenStreetMap</span></div>
+        <div class="tbl-wrap"><table id="arr-table"></table></div>
+      </div>
+    </section>
+
+    <section class="page" id="simulateur" role="tabpanel" aria-labelledby="t-simulateur" hidden>
+      <p class="lead">Les poids du score sont un <strong>choix stratégique</strong>, pas une vérité technique. Déplacez les curseurs : la carte et le classement se recalculent.</p>
+      <div class="split rev">
+        <div class="panel">
+          <div class="sliders" id="sliders"></div>
+          <p class="applied" id="applied"></p>
+          <div class="presets" id="presets" aria-label="Scénarios"></div>
+          <div>
+            <h3 style="margin-bottom:6px">Rang des 3 zones recommandées</h3>
+            <div class="ranks" id="reco-ranks"></div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Score recalculé</h3><span class="note">Cliquez un hexagone pour sa fiche</span></div>
+          <div class="map" id="map-sim"></div>
+          <div class="legend" id="leg-sim"></div>
+          <h3>Top 10 avec ces poids</h3>
+          <div class="tbl-wrap"><table id="top10"></table></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="zone" role="tabpanel" aria-labelledby="t-zone" hidden>
+      <div class="panel-head">
+        <div style="display:grid;gap:4px"><h2 id="zone-title"></h2><span class="note mono" id="zone-id"></span></div>
+        <label class="note">Zone&nbsp; <select id="zone-select"></select></label>
+      </div>
+      <div class="split">
+        <div class="panel">
+          <div class="panel-head"><h3 id="flux-title">D'où viendraient les clients (modèle de Huff)</h3></div>
+          <div class="map" id="map-zone"></div>
+          <div class="legend" id="leg-zone"></div>
+        </div>
+        <div class="panel" id="zone-facts"></div>
+      </div>
+    </section>
+
+    <section class="page" id="qualite" role="tabpanel" aria-labelledby="t-qualite" hidden>
+      <p class="lead" id="q-lead"></p>
+      <div class="panel">
+        <div class="panel-head"><h3>Règles de qualité</h3><span class="note">Recalculées à chaque exécution du pipeline</span></div>
+        <div class="tbl-wrap"><table id="rules"></table></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Population Kontur contre recensement, par arrondissement</h3>
+          <div class="legend"><span class="sw"><i style="border:2px solid var(--dot);border-radius:50%;width:10px;height:10px"></i>Kontur (estimation)</span><span class="sw"><i style="background:var(--q5);border-radius:50%;width:10px;height:10px"></i>RGPH 2024 (HCP)</span></div>
+        </div>
+        <div class="dotplot" id="calage"></div>
+        <p class="note">Kontur est juste au total mais se trompe sur la répartition : chaque arrondissement a été recalé sur le chiffre officiel.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© contributeurs OpenStreetMap (ODbL) · Population © Kontur (CC BY 4.0) · HCP, RGPH 2024.</span>
+    <span>Projet de portfolio : la mission et le mandat du client sont fictifs. « Gain net » = habitants captés par la nouvelle agence moins ceux perdus par les agences existantes du client (modèle de Huff) ; c'est un classement relatif, pas une prévision de comptes.</span>
+  </footer>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = (s) => document.querySelector(s);
+const nf = new Intl.NumberFormat("fr-FR");
+const fmt = (n) => (n == null ? "—" : nf.format(Math.round(n)));
+const dec = (n, d = 1) => (n == null ? "—" : n.toLocaleString("fr-FR", { minimumFractionDigits: d, maximumFractionDigits: d }));
+const km = (m) => (m == null ? "—" : m >= 1000 ? dec(m / 1000) + " km" : fmt(m) + " m");
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const KEYS = ["demande", "concurrence", "accessibilite", "attractivite"];
+const LABELS = { demande: "Demande", concurrence: "Faible concurrence", accessibilite: "Accessibilité", attractivite: "Attractivité" };
+const SHORT = { demande: "demande", concurrence: "concurrence", accessibilite: "accès", attractivite: "attractivité" };
+const HELP = { demande: "habitants à ~1 km", concurrence: "peu d'agences concurrentes à 1 km", accessibilite: "tram/busway, axes", attractivite: "commerces, bureaux, santé" };
+
+const recos = D.hex.map((h, i) => [h, i]).filter(([h]) => h.recommande).sort((a, b) => a[0].rang_recommandation - b[0].rang_recommandation);
+const recoIdx = recos.map(([, i]) => i);
+const state = { w: { ...D.poids }, zone: recoIdx[0] };
+
+/* ---------- scoring (même formule que locintel/scoring.py) ---------- */
+function scores(w) {
+  const t = KEYS.reduce((s, k) => s + w[k], 0);
+  return D.hex.map((h) => (h.exclu || t === 0 ? null :
+    (100 * (w.demande * h.demande_norm + w.concurrence * (1 - h.concurrence_norm) +
+      w.accessibilite * h.accessibilite_norm + w.attractivite * h.attractivite_norm)) / t));
+}
+function ranks(s) {
+  const r = new Array(s.length).fill(null);
+  s.map((v, i) => [v, i]).filter((a) => a[0] != null).sort((a, b) => b[0] - a[0]).forEach(([, i], k) => (r[i] = k + 1));
+  return r;
+}
+
+/* ---------- couleurs ---------- */
+const ramp = () => [1, 2, 3, 4, 5, 6].map((i) => css("--q" + i));
+function binner(values) {
+  const v = values.filter((x) => x != null);
+  const lo = Math.min(...v), hi = Math.max(...v), r = ramp();
+  const f = (x) => (x == null ? css("--excl") : r[Math.min(r.length - 1, Math.floor(((x - lo) / (hi - lo || 1)) * r.length))]);
+  f.lo = lo; f.hi = hi;
+  return f;
+}
+function rampLegend(el, f, label, fmtv, extra = "") {
+  el.innerHTML = `<span>${label}</span><span class="num">${fmtv(f.lo)}</span><span class="ramp">${ramp().map((c) => `<span style="background:${c}"></span>`).join("")}</span><span class="num">${fmtv(f.hi)}</span>${extra}`;
+}
+
+/* ---------- cartes SVG ---------- */
+function drawMap(el, { fill, label, badges = [], outline = [], extra = "", small = false }) {
+  const vb = D.viewBox.join(" ");
+  const hexes = D.hex.map((h, i) => `<path d="${h.path}" fill="${fill(i)}" data-i="${i}"/>`).join("");
+  const arr = D.arr.map((a) => `<path d="${a.path}"/>`).join("");
+  const out = outline.map((i) => `<path class="sel" d="${D.hex[i].path}"/>`).join("");
+  const bdg = badges.map(([i, t]) => `<g class="badge${small ? " sm" : ""}"><circle cx="${D.hex[i].cx}" cy="${D.hex[i].cy}" r="${small ? 9 : 14}"/><text x="${D.hex[i].cx}" y="${D.hex[i].cy}">${t}</text></g>`).join("");
+  el.innerHTML = `<svg viewBox="${vb}" role="img" aria-label="${esc(label)}"><g class="hexes">${hexes}</g><g class="arr">${arr}</g>${extra}${out}${bdg}</svg>`;
+}
+const tip = $("#tip");
+function bindTips(el, line) {
+  el._line = line;
+  if (el._bound) return;   // un seul jeu d'écouteurs par carte, même après un redessin
+  el._bound = true;
+  el.addEventListener("mousemove", (e) => {
+    const p = e.target.closest("path[data-i]");
+    if (!p) { tip.hidden = true; return; }
+    const h = D.hex[+p.dataset.i];
+    tip.innerHTML = `<b>${esc(h.arrondissement)}</b> · station ${esc(h.station_proche)}<br>${el._line(+p.dataset.i)}`;
+    tip.hidden = false;
+    const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+    tip.style.left = x + "px"; tip.style.top = e.clientY + 14 + "px";
+  });
+  el.addEventListener("mouseleave", () => (tip.hidden = true));
+  el.addEventListener("click", (e) => {
+    const p = e.target.closest("path[data-i]");
+    if (p) { state.zone = +p.dataset.i; show("zone"); }
+  });
+}
+const baseLine = (i) => {
+  const h = D.hex[i];
+  return `${fmt(h.pop_k1)} hab. à ~1 km · ${h.n_concurrents_1km} concurrent${h.n_concurrents_1km > 1 ? "s" : ""} à 1 km`;
+};
+
+/* ---------- page 1 : recommandation ---------- */
+function pageReco() {
+  const gain = D.portefeuille.gain_net_portefeuille;   // les 3 agences ouvertes ensemble
+  const arrs = [...new Set(recos.map(([h]) => h.arrondissement))];
+  $("#reco-lead").innerHTML = `Ouvrir les 3 agences dans la <strong>ceinture est</strong> (${arrs.join(", ")}) : environ <strong>${fmt(Math.round(gain / 1000) * 1000)} habitants</strong> de clientèle nette captable, là où chaque agence dessert aujourd'hui des dizaines de milliers d'habitants.`;
+  const k = [
+    [fmt(D.stats.population), "habitants (RGPH 2024)"],
+    [fmt(D.stats.agences), "agences bancaires"],
+    [dec((100 * D.stats.agences_client) / D.stats.agences) + " %", `part des agences ${D.client}`],
+    [fmt(gain), "gain net des 3 agences ouvertes ensemble (Huff)"],
+  ];
+  $("#kpis").innerHTML = k.map(([v, l]) => `<div class="kpi"><span class="v">${v}</span><span class="l">${l}</span></div>`).join("");
+  const s = D.hex.map((h) => h.score_100);
+  const f = binner(s);
+  drawMap($("#map-reco"), { fill: (i) => f(s[i]), label: "Carte des scores et des zones recommandées", outline: recoIdx, badges: recos.map(([h, i]) => [i, h.rang_recommandation]) });
+  rampLegend($("#leg-reco"), f, "Score", (v) => dec(v, 0), `<span class="sw"><i style="background:var(--excl)"></i>Exclu (agence ${esc(D.client)} &lt; 500 m ou zone vide)</span><span class="sw"><i class="out"></i>Zone recommandée</span>`);
+  $("#reco-list").innerHTML = recos.map(([h, i]) => `
+    <div class="reco" role="button" tabindex="0" data-i="${i}" aria-label="Fiche de la zone ${h.rang_recommandation}">
+      <span class="n">${h.rang_recommandation}</span>
+      <span>
+        <span class="t">${esc(h.arrondissement)}</span><br>
+        <span class="a">Station ${esc(h.station_proche)} · ${esc(h.axe_proche ?? "")}</span>
+        <dl>
+          <div><dt>Hab. à ~1 km</dt><dd>${fmt(h.pop_k1)}</dd></div>
+          <div><dt>Concurrents 1 km</dt><dd>${h.n_concurrents_1km}</dd></div>
+          <div><dt>Gain net</dt><dd>${fmt(h.gain_net_client)}</dd></div>
+          <div><dt>Tram / busway</dt><dd>${km(h.dist_transport_m)}</dd></div>
+          <div><dt>Agence ${esc(D.client)}</dt><dd>${km(h.dist_agence_client_m)}</dd></div>
+          <div><dt>Rang du score</dt><dd>${h.rang}</dd></div>
+        </dl>
+      </span>
+    </div>`).join("") +
+    `<p class="note">Le score présélectionne 12 candidats ; le modèle de Huff retient les 3 plus gros gains nets, distants d'au moins 2,5 km. C'est pourquoi une zone peut être recommandée sans être n°1 du score. Les gains affichés par zone sont calculés site par site ; ouvertes ensemble, les 3 agences se partagent une partie des clients (recouvrement de ${dec(D.portefeuille.recouvrement_pct)} %).</p>`;
+  $("#reco-list").querySelectorAll(".reco").forEach((b) => {
+    const go = () => { state.zone = +b.dataset.i; show("zone"); };
+    b.addEventListener("click", go);
+    b.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  });
+  bindTips($("#map-reco"), (i) => `Score ${D.hex[i].score_100 == null ? "— (" + esc(D.hex[i].motif_exclusion) + ")" : dec(D.hex[i].score_100) + " · rang " + D.hex[i].rang}<br>${baseLine(i)}`);
+}
+
+/* ---------- page 2 : concurrence ---------- */
+function pageConc() {
+  const A = D.arrondissements.filter((a) => a.agences_total > 0).sort((a, b) => b.hab_par_agence - a.hab_par_agence);
+  const hi = A[0], lo = A[A.length - 1];
+  $("#conc-lead").innerHTML = `Les agences sont au centre, les habitants à l'est : on compte <strong>${fmt(hi.hab_par_agence)} habitants par agence à ${esc(hi.arrondissement)}</strong>, contre ${fmt(lo.hab_par_agence)} à ${esc(lo.arrondissement)}, soit ${fmt(hi.hab_par_agence / lo.hab_par_agence)} fois plus.`;
+  const pop = D.hex.map((h) => h.population);
+  const f = binner(pop);
+  const dots = D.agences.map(([x, y, , c]) => (c ? `<rect x="${x - 4.5}" y="${y - 4.5}" width="9" height="9" transform="rotate(45 ${x} ${y})"/>` : `<circle cx="${x}" cy="${y}" r="2.6"/>`));
+  const nClient = D.agences.filter((a) => a[3]).length;
+  drawMap($("#map-conc"), { fill: (i) => f(pop[i]), label: "Population et agences", extra: `<g class="dots">${dots.join("")}</g>` });
+  rampLegend($("#leg-conc"), f, "Habitants / hexagone", fmt, `<span class="sw"><i class="dot"></i>Concurrent (${fmt(D.agences.length - nClient)})</span><span class="sw"><i class="dia"></i>${esc(D.client)} (${nClient})</span>`);
+  bindTips($("#map-conc"), (i) => `${fmt(D.hex[i].population)} habitants dans l'hexagone<br>${baseLine(i)}`);
+
+  const M = D.marques, mx = Math.max(...M.map((m) => m.agences));
+  $("#brand-note").textContent = `${M.length} marques après harmonisation`;
+  $("#brands").innerHTML = M.map((m) => `
+    <div class="bar${m.est_client ? " client" : ""}"><span class="name">${esc(m.marque)}</span>
+      <span class="track"><span class="fill" style="display:block;width:${(100 * m.agences) / mx}%"></span></span>
+      <span class="val">${m.agences}</span></div>`).join("");
+
+  const mh = Math.max(...A.map((a) => a.hab_par_agence));
+  $("#arr-table").innerHTML = `<thead><tr><th>Arrondissement</th><th class="r">Population</th><th class="r">Agences</th><th class="r">dont ${esc(D.client)}</th><th class="r">Habitants par agence</th></tr></thead><tbody>` +
+    D.arrondissements.slice().sort((a, b) => (b.hab_par_agence ?? 1e9) - (a.hab_par_agence ?? 1e9)).map((a) => `
+    <tr><td>${esc(a.arrondissement)}</td><td class="r">${fmt(a.population)}</td><td class="r">${a.agences_total}</td><td class="r">${a.agences_client}</td>
+    <td class="r"><span class="inbar">${fmt(a.hab_par_agence)}<span class="b" style="width:${(90 * (a.hab_par_agence ?? 0)) / mh}px"></span></span></td></tr>`).join("") + "</tbody>";
+}
+
+/* ---------- page 3 : simulateur ---------- */
+function pageSim() {
+  $("#sliders").innerHTML = KEYS.map((k) => `
+    <div class="slider"><label for="w-${k}"><span>${LABELS[k]}</span><output id="o-${k}"></output></label>
+      <input type="range" id="w-${k}" min="0" max="100" step="5" value="${state.w[k]}"><small>${HELP[k]}</small></div>`).join("");
+  const presets = { "Référence": D.poids, ...D.scenarios };
+  $("#presets").innerHTML = Object.keys(presets).map((n) => `<button data-p="${esc(n)}">${esc(n)}</button>`).join("");
+  $("#presets").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+    Object.assign(state.w, presets[b.dataset.p]);
+    KEYS.forEach((k) => ($("#w-" + k).value = state.w[k]));
+    updateSim();
+  }));
+  KEYS.forEach((k) => $("#w-" + k).addEventListener("input", (e) => { state.w[k] = +e.target.value; updateSim(); }));
+  bindTips($("#map-sim"), (i) => `Score ${state.s[i] == null ? "— (" + esc(D.hex[i].motif_exclusion) + ")" : dec(state.s[i]) + " · rang " + state.r[i]}<br>${baseLine(i)}`);
+  updateSim();
+}
+function updateSim() {
+  const w = state.w, t = KEYS.reduce((s, k) => s + w[k], 0);
+  KEYS.forEach((k) => ($("#o-" + k).textContent = w[k]));
+  $("#applied").textContent = t === 0 ? "Choisissez au moins un poids." :
+    "Poids appliqués : " + KEYS.map((k) => `${SHORT[k]} ${Math.round((100 * w[k]) / t)} %`).join(" · ");
+  const presets = { "Référence": D.poids, ...D.scenarios };
+  $("#presets").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", KEYS.every((k) => presets[b.dataset.p][k] === w[k])));
+  state.s = scores(w); state.r = ranks(state.s);
+  if (t === 0) { $("#map-sim").innerHTML = ""; $("#top10").innerHTML = ""; return; }
+  const f = binner(state.s);
+  const top = state.r.map((r, i) => [r, i]).filter(([r]) => r != null && r <= 10).sort((a, b) => a[0] - b[0]).map(([, i]) => i);
+  drawMap($("#map-sim"), { fill: (i) => f(state.s[i]), label: "Score recalculé", outline: recoIdx, badges: top.map((i) => [i, state.r[i]]), small: true });
+  rampLegend($("#leg-sim"), f, "Score", (v) => dec(v, 0), `<span class="sw"><i class="out"></i>Zone recommandée</span><span class="note">Pastilles : top 10</span>`);
+  $("#reco-ranks").innerHTML = recos.map(([h, i]) => `<div class="rankrow"><span>${h.rang_recommandation}. ${esc(h.arrondissement)} <span class="note">station ${esc(h.station_proche)}</span></span><b>rang ${state.r[i] ?? "—"}</b></div>`).join("");
+  $("#top10").innerHTML = `<thead><tr><th class="r">Rang</th><th>Arrondissement</th><th>Station proche</th><th class="r">Score</th><th class="r">Concurrents</th></tr></thead><tbody>` +
+    top.map((i) => `<tr class="click" data-i="${i}" tabindex="0"><td class="r">${state.r[i]}</td><td>${esc(D.hex[i].arrondissement)}${D.hex[i].recommande ? " ●" : ""}</td><td>${esc(D.hex[i].station_proche)}</td><td class="r">${dec(state.s[i])}</td><td class="r">${D.hex[i].n_concurrents_1km}</td></tr>`).join("") + "</tbody>";
+  $("#top10").querySelectorAll("tr.click").forEach((tr) => {
+    const go = () => { state.zone = +tr.dataset.i; show("zone"); };
+    tr.addEventListener("click", go);
+    tr.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+  });
+}
+
+/* ---------- page 4 : fiche zone ---------- */
+function pageZone() {
+  const sel = $("#zone-select");
+  const cand = D.hex.map((h, i) => [h, i]).filter(([h]) => h.candidat_huff).sort((a, b) => (a[0].rang_recommandation ?? 9) - (b[0].rang_recommandation ?? 9) || b[0].gain_net_client - a[0].gain_net_client);
+  const opts = cand.map(([h, i]) => `<option value="${i}">${h.recommande ? "★ " : ""}${esc(h.arrondissement)} · station ${esc(h.station_proche)}</option>`);
+  if (!cand.some(([, i]) => i === state.zone)) opts.push(`<option value="${state.zone}">${esc(D.hex[state.zone].arrondissement)} (sélection sur la carte)</option>`);
+  sel.innerHTML = opts.join(""); sel.value = state.zone;
+  sel.onchange = () => { state.zone = +sel.value; pageZone(); };
+
+  const i = state.zone, h = D.hex[i];
+  $("#zone-title").textContent = `${h.arrondissement} — station ${h.station_proche}`;
+  $("#zone-id").textContent = `${h.axe_proche ?? ""} · H3 ${h.h3} · ${dec(h.lat, 4)}, ${dec(h.lon, 4)}`;
+  const flux = D.flux[h.h3];
+  let extra = "";
+  if (flux) {
+    const mx = Math.max(...flux.map((f) => f[2]));
+    extra = `<g class="flux">${flux.map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="${(2 + 16 * Math.sqrt(c / mx)).toFixed(1)}"/>`).join("")}</g>`;
+    $("#flux-title").textContent = "D'où viendraient les clients (modèle de Huff)";
+    $("#leg-zone").innerHTML = `<span class="sw"><i style="background:var(--q4);opacity:.5;border-radius:50%"></i>Surface ∝ clients captés par hexagone d'origine</span>`;
+  } else {
+    $("#flux-title").textContent = "Localisation";
+    $("#leg-zone").innerHTML = `<span class="note">Cet hexagone ne fait pas partie des 12 candidats soumis au modèle de Huff.</span>`;
+  }
+  drawMap($("#map-zone"), { fill: () => css("--excl"), label: "Zone sélectionnée", outline: [i], extra });
+  bindTips($("#map-zone"), baseLine);
+
+  const avg = (k) => D.hex.reduce((s, x) => s + x[k + "_norm"], 0) / D.hex.length;
+  const val = (k) => (k === "concurrence" ? 1 - h.concurrence_norm : h[k + "_norm"]);
+  const inds = KEYS.map((k) => {
+    const a = k === "concurrence" ? 1 - avg(k) : avg(k);
+    return `<div class="ind"><span>${LABELS[k]}</span><span class="track"><span class="fill" style="width:${100 * val(k)}%"></span><span class="avg" style="left:${100 * a}%" title="Moyenne de la ville"></span></span><span class="val">${dec(val(k), 2)}</span></div>`;
+  }).join("");
+  const huff = flux ? `
+    <h3>Modèle de Huff</h3>
+    <div class="facts">
+      <div class="fact"><div class="l">Clients captés</div><div class="v">${fmt(h.clients_captes)}</div></div>
+      <div class="fact"><div class="l">Cannibalisation ${esc(D.client)}</div><div class="v">−${fmt(h.cannibalisation_client)}</div></div>
+      <div class="fact"><div class="l">Gain net</div><div class="v">${fmt(h.gain_net_client)}</div></div>
+    </div>` : "";
+  $("#zone-facts").innerHTML = `
+    ${h.exclu ? `<div class="warnbox">Hexagone exclu : ${esc(h.motif_exclusion)}.</div>` : ""}
+    <div class="facts">
+      <div class="fact"><div class="l">Score (référence)</div><div class="v">${h.score_100 == null ? "—" : dec(h.score_100)} <small>${h.rang ? "rang " + h.rang : ""}</small></div></div>
+      <div class="fact"><div class="l">Habitants à ~1 km</div><div class="v">${fmt(h.pop_k1)}</div></div>
+      <div class="fact"><div class="l">Concurrents à 1 km</div><div class="v">${h.n_concurrents_1km}</div></div>
+      <div class="fact"><div class="l">Concurrent le plus proche</div><div class="v">${km(h.dist_concurrent_m)}</div></div>
+      <div class="fact"><div class="l">Agence ${esc(D.client)} la plus proche</div><div class="v">${km(h.dist_agence_client_m)}</div></div>
+      <div class="fact"><div class="l">Transport lourd</div><div class="v">${km(h.dist_transport_m)} <small>${esc(h.mode_transport_proche)}</small></div></div>
+    </div>
+    <h3>Indicateurs normalisés <span class="note" style="text-transform:none;letter-spacing:0">— trait : moyenne de la ville</span></h3>
+    <div class="bars">${inds}</div>
+    ${huff}`;
+}
+
+/* ---------- page 5 : qualité ---------- */
+function pageQual() {
+  const Q = D.qualite, cnt = (s) => Q.filter((q) => q.statut === s).length;
+  $("#q-lead").innerHTML = `${Q.length} règles contrôlent les données : <strong>${cnt("Conforme")} conformes</strong>, ${cnt("Alerte")} alertes corrigées ou documentées, ${cnt("Info")} informatives, ${cnt("À faire")} contrôle terrain à réaliser. Extraction OpenStreetMap du ${D.stats.date_osm}.`;
+  const P = { "Conforme": ["ok", "✓"], "Alerte": ["alert", "!"], "Info": ["info", "i"], "À faire": ["todo", "…"] };
+  $("#rules").innerHTML = `<thead><tr><th>ID</th><th>Statut</th><th>Dimension</th><th>Règle</th><th class="r">Mesure</th><th>Seuil</th><th>Commentaire</th></tr></thead><tbody>` +
+    Q.map((q) => { const [c, ic] = P[q.statut] ?? ["info", "i"]; return `<tr><td class="mono">${q.id}</td><td><span class="pill ${c}"><i>${ic}</i>${esc(q.statut)}</span></td><td>${esc(q.dimension)}</td><td>${esc(q.regle)}</td><td class="r">${esc(q.valeur)}</td><td>${esc(q.seuil)}</td><td class="note">${esc(q.commentaire)}</td></tr>`; }).join("") + "</tbody>";
+
+  const C = D.calage.slice().sort((a, b) => b.hcp_2024 - a.hcp_2024);
+  const W = 760, L = 130, R = 70, rowH = 26, top = 24, H = top + C.length * rowH + 8;
+  const mx = Math.max(...C.flatMap((c) => [c.kontur, c.hcp_2024]));
+  const x = (v) => L + ((W - L - R) * v) / mx;
+  const ticks = [0, 200000, 400000, 600000, 800000].filter((t) => t <= mx * 1.02);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Population Kontur contre RGPH 2024 par arrondissement"><g class="grid">` +
+    ticks.map((t) => `<line x1="${x(t)}" x2="${x(t)}" y1="${top - 6}" y2="${H - 8}"/><text x="${x(t)}" y="${top - 10}" text-anchor="middle">${t === 0 ? "0" : t / 1000 + " k"}</text>`).join("") + "</g>";
+  C.forEach((c, k) => {
+    const y = top + k * rowH + rowH / 2;
+    s += `<text class="lbl" x="${L - 10}" y="${y}" text-anchor="end" dominant-baseline="central">${esc(c.arrondissement)}</text>`;
+    s += `<line class="seg" x1="${x(c.kontur)}" x2="${x(c.hcp_2024)}" y1="${y}" y2="${y}"/>`;
+    s += `<circle class="k" cx="${x(c.kontur)}" cy="${y}" r="5"><title>Kontur : ${fmt(c.kontur)}</title></circle>`;
+    s += `<circle class="h" cx="${x(c.hcp_2024)}" cy="${y}" r="5"><title>RGPH 2024 : ${fmt(c.hcp_2024)}</title></circle>`;
+    s += `<text x="${W - 4}" y="${y}" text-anchor="end" dominant-baseline="central">${c.ecart_kontur_pct > 0 ? "+" : ""}${dec(c.ecart_kontur_pct, 0)} %</text>`;
+  });
+  $("#calage").innerHTML = s + "</svg>";
+}
+
+/* ---------- navigation ---------- */
+const PAGES = { recommandation: pageReco, concurrence: pageConc, simulateur: pageSim, zone: pageZone, qualite: pageQual };
+const drawn = new Set();
+function show(id, push = true) {
+  if (!PAGES[id]) id = "recommandation";
+  document.querySelectorAll("section.page").forEach((s) => (s.hidden = s.id !== id));
+  document.querySelectorAll("nav.tabs button").forEach((b) => b.setAttribute("aria-selected", b.getAttribute("aria-controls") === id));
+  if (id === "zone" || !drawn.has(id)) { PAGES[id](); drawn.add(id); }
+  tip.hidden = true;
+  if (push && location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+}
+document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.getAttribute("aria-controls"))));
+$("#client-name").textContent = D.client;
+$("#sources").textContent = `OpenStreetMap (extraction du ${D.stats.date_osm}) · Kontur Population 2023 calée sur le RGPH 2024 · 273 hexagones H3 de résolution 8`;
+show(location.hash.slice(1), false);
+
+/* les couleurs viennent des jetons CSS : on redessine quand le thème change */
+function redraw() {
+  drawn.clear();
+  const vis = document.querySelector("section.page:not([hidden])").id;
+  PAGES[vis](); drawn.add(vis);
+}
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", redraw);
+new MutationObserver(redraw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

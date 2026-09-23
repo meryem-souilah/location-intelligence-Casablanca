@@ -1,0 +1,7 @@
+.venv/
+.cache/
+scratch_cache/
+__pycache__/
+data/bronze/
+data/silver/
+*.gpkg-journal

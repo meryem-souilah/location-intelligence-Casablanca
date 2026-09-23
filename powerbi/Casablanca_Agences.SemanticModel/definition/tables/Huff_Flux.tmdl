@@ -1,0 +1,53 @@
+table Huff_Flux
+
+	column h3_candidat
+		dataType: string
+		summarizeBy: none
+		sourceColumn: h3_candidat
+
+	column h3_origine
+		dataType: string
+		summarizeBy: none
+		sourceColumn: h3_origine
+
+	column lat_origine
+		dataType: double
+		summarizeBy: none
+		dataCategory: Latitude
+		sourceColumn: lat_origine
+
+	column lon_origine
+		dataType: double
+		summarizeBy: none
+		dataCategory: Longitude
+		sourceColumn: lon_origine
+
+	column distance_m
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: distance_m
+
+	column population
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: population
+
+	column probabilite
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: probabilite
+
+	column clients_captes
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: clients_captes
+
+	partition Huff_Flux = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "huff_flux.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"h3_candidat", type text}, {"h3_origine", type text}, {"lat_origine", type number}, {"lon_origine", type number}, {"distance_m", Int64.Type}, {"population", Int64.Type}, {"probabilite", type number}, {"clients_captes", type number}}, "en-US")
+				in
+				    Types

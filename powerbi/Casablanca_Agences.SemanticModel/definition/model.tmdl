@@ -1,0 +1,19 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+
+ref table Fait_Hexagones
+ref table Dim_Agences
+ref table Dim_Arrondissement
+ref table Dim_Marque
+ref table Huff_Candidats
+ref table Huff_Flux
+ref table Robustesse
+ref table Qualite_Regles
+ref table Qualite_Calage
+ref table Qualite_Arrondissements
+ref table 'Poids Demande'
+ref table 'Poids Concurrence'
+ref table 'Poids Accessibilite'
+ref table 'Poids Attractivite'

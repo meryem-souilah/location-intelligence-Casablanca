@@ -1,0 +1,2 @@
+expression DossierGold = "C:\Users\Dell Latitude 5440\Desktop\Localisation intelligente\data\gold\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	annotation PBI_ResultType = Text

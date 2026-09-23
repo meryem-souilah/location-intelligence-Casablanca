@@ -1,0 +1,16 @@
+scenario,h3,rang,dans_top20
+Pondération de référence,8839aab8a7fffff,21,False
+Pondération de référence,8839aab99dfffff,15,True
+Pondération de référence,8839aab9e3fffff,1,True
+Offensif (demande),8839aab8a7fffff,18,True
+Offensif (demande),8839aab99dfffff,16,True
+Offensif (demande),8839aab9e3fffff,1,True
+Prudent (concurrence),8839aab8a7fffff,17,True
+Prudent (concurrence),8839aab99dfffff,12,True
+Prudent (concurrence),8839aab9e3fffff,1,True
+Flux (accès + activité),8839aab8a7fffff,62,False
+Flux (accès + activité),8839aab99dfffff,27,False
+Flux (accès + activité),8839aab9e3fffff,1,True
+Poids égaux,8839aab8a7fffff,35,False
+Poids égaux,8839aab99dfffff,18,True
+Poids égaux,8839aab9e3fffff,1,True

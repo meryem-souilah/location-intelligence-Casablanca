@@ -1,0 +1,788 @@
+﻿osm_id,type,marque,est_client,name,brand,operator,marque_osm_renseignee,arrondissement,derniere_modif_osm,version_osm,lat,lon
+n13319995030,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Bernoussi,2025-11-20T19:31:30Z,1,33.609572,-7.496287
+n5581612571,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Sidi Belyout,2020-12-19T03:47:34Z,4,33.591103,-7.605308
+n5636200653,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Maârif,2020-12-15T04:26:57Z,3,33.582273,-7.627273
+w594720513,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Hassani,2020-12-11T06:28:19Z,2,33.566412,-7.683755
+n5608200123,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.549811,-7.579386
+n5620249784,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,3,33.576605,-7.518202
+n5636200707,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2026-06-09T21:38:36Z,6,33.582708,-7.629276
+n5620249786,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,5,33.586732,-7.501594
+w419994095,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,3,33.547327,-7.632217
+n1746905779,gab,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,BMCI,True,Sidi Belyout,2026-06-06T18:48:06Z,5,33.595026,-7.627633
+n1823230253,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2025-08-29T19:17:37Z,5,33.577478,-7.64707
+n13362536448,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Bernoussi,2025-12-08T21:36:50Z,1,33.612507,-7.49498
+n5633748105,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Ben M'Sick,2020-12-15T04:26:57Z,3,33.561702,-7.576561
+n13362536450,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Bernoussi,2025-12-08T21:36:50Z,1,33.611613,-7.495666
+n5636207662,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,3,33.58479,-7.621868
+n13362551305,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Roches noires,2025-12-08T21:35:14Z,1,33.585581,-7.576954
+n5635622754,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Roches noires,2020-12-11T06:28:19Z,3,33.586118,-7.585335
+n5589013086,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.537463,-7.586132
+n2640991902,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-08-15T23:32:02Z,10,33.584381,-7.64348
+n2640991961,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2026-06-08T21:19:09Z,12,33.586248,-7.634807
+n5589450867,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Al Fida,2020-12-11T06:28:19Z,2,33.570882,-7.587731
+n2640991963,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2025-08-12T03:21:12Z,7,33.584301,-7.639578
+n5589599909,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Al Fida,2020-12-15T04:26:57Z,2,33.567285,-7.586108
+n5589601433,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Al Fida,2022-10-19T16:28:42Z,3,33.569013,-7.584171
+n5635622786,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Moulay Rachid,2020-12-11T06:28:19Z,2,33.570819,-7.525638
+n3123731465,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Roches noires,2020-12-15T04:26:57Z,3,33.590609,-7.591111
+n3199803160,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2024-06-02T13:47:01Z,8,33.593356,-7.624133
+n5622964011,agence,CIH Bank,True,CIH Bank,CIH Bank,Crédit immobilier et hôtelier,True,Sidi Belyout,2025-04-07T16:38:31Z,5,33.593722,-7.606483
+n5593149211,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Al Fida,2025-02-03T18:56:22Z,3,33.563692,-7.594868
+n5636207663,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Sidi Belyout,2020-12-19T03:47:34Z,3,33.584579,-7.622095
+n2711741033,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2025-05-16T13:18:52Z,3,33.579668,-7.640227
+n5593149815,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Mers Sultan,2025-04-07T16:56:51Z,3,33.573353,-7.597598
+n2809642314,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-05-16T13:18:52Z,5,33.578836,-7.636777
+n5625001500,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.539475,-7.568908
+n5595534165,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.544875,-7.562726
+n2880485803,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sidi Bernoussi,2020-12-15T04:26:57Z,3,33.614335,-7.486806
+n5610101857,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Roches noires,2024-03-27T14:05:25Z,4,33.599766,-7.582693
+n5636025100,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Roches noires,2020-12-11T06:28:19Z,4,33.591128,-7.601515
+n5581263596,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Mers Sultan,2026-09-20T18:36:31Z,4,33.585264,-7.600261
+n5636025114,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Roches noires,2020-12-11T06:28:19Z,4,33.583545,-7.581667
+n5610319110,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Aïn Sebaâ,2020-12-19T03:47:34Z,3,33.611417,-7.530405
+n5636207739,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,3,33.588842,-7.620183
+n5603300422,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.543035,-7.574996
+n5604819610,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sbata,2024-09-23T22:39:37Z,4,33.550749,-7.568476
+n5618304918,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,3,33.578071,-7.537656
+n4100382707,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2024-03-25T09:43:20Z,4,33.589063,-7.628472
+n2903614196,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Hay Hassani,2020-12-15T04:26:57Z,5,33.570523,-7.650746
+n2903627413,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Maârif,2020-12-19T03:47:34Z,5,33.570489,-7.625738
+n13203028405,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-10-08T15:45:58Z,1,33.565037,-7.637969
+n2916714194,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2024-06-02T13:47:01Z,4,33.591331,-7.626334
+n5638348143,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2026-06-09T21:38:36Z,7,33.582651,-7.629473
+n2935945801,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Mers Sultan,2020-12-11T06:28:19Z,5,33.582972,-7.614713
+n5636182862,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2026-04-24T17:41:23Z,5,33.566463,-7.62667
+n5636207790,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,3,33.582942,-7.619763
+n3120355562,agence,BMCI,False,Bmci Moulay Youssef,BMCI,Banque Marocaine pour le Commerce et l'Industrie,True,Sidi Belyout,2025-04-07T15:32:17Z,3,33.603734,-7.633522
+n5636182877,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2020-12-11T06:28:19Z,2,33.569792,-7.626222
+n5627299033,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2026-06-06T18:48:06Z,5,33.583659,-7.617061
+n5627299149,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,4,33.587631,-7.611858
+n4193540892,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2025-05-17T15:42:14Z,6,33.594512,-7.616425
+n5632885407,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Moulay Rachid,2020-12-11T06:28:19Z,4,33.57056,-7.556373
+n5636207741,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2022-03-06T09:49:04Z,4,33.587867,-7.620731
+n5627432624,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Roches noires,2020-12-11T06:28:19Z,4,33.588674,-7.577487
+n4193613720,gab,Banque Populaire,False,Banque populaire,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,True,Sidi Belyout,2026-06-06T18:48:06Z,6,33.599324,-7.613056
+n5636207708,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2024-06-02T13:47:01Z,3,33.592734,-7.620676
+n5627685280,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2026-06-06T18:48:06Z,4,33.589805,-7.61391
+n3214353532,gab,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,Saham Bank سهام بنك,True,Sidi Belyout,2025-12-20T00:12:11Z,9,33.596372,-7.61633
+n5608038514,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Roches noires,2024-03-27T14:05:25Z,4,33.602131,-7.583364
+n3214364881,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2025-07-28T20:59:08Z,5,33.595736,-7.617099
+n5608044173,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Ben M'Sick,2020-12-19T03:47:34Z,3,33.556709,-7.58467
+n5620006268,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sidi Moumen,2020-12-15T04:26:57Z,3,33.58081,-7.540757
+n5608044194,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Ben M'Sick,2020-12-15T04:26:57Z,3,33.556698,-7.585765
+n5608044209,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.556714,-7.588644
+n5620066616,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,5,33.581387,-7.509952
+n5595534173,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sbata,2022-11-07T00:56:55Z,3,33.546197,-7.564013
+n5595534187,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sbata,2022-10-19T16:28:42Z,4,33.550748,-7.568337
+n5636182919,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2023-12-14T11:19:22Z,4,33.578223,-7.625641
+n5595616129,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.542021,-7.571069
+n4348402993,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Roches noires,2024-03-27T14:05:25Z,4,33.5958,-7.587319
+n4349122991,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2025-09-29T00:17:07Z,5,33.55687,-7.644085
+n5620068022,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sidi Moumen,2020-12-15T04:26:57Z,3,33.576232,-7.51809
+n4354064583,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sidi Bernoussi,2020-12-15T04:26:57Z,2,33.618355,-7.485819
+n5595616133,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Sbata,2020-12-19T03:47:34Z,2,33.540628,-7.573421
+n5595616180,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sbata,2020-12-15T04:26:57Z,2,33.541296,-7.572897
+n4182139470,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2020-12-11T06:28:19Z,3,33.572162,-7.617091
+n4182139488,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Mers Sultan,2020-12-11T06:28:19Z,3,33.571189,-7.612552
+n4188281498,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2025-11-22T23:22:20Z,6,33.582682,-7.620081
+n4190908061,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Mers Sultan,2020-12-11T06:28:19Z,4,33.583263,-7.613555
+n5620249783,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,4,33.594264,-7.499081
+n13920019375,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2026-06-08T12:25:27Z,1,33.596307,-7.619346
+n5636182929,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2023-12-14T11:19:22Z,4,33.578808,-7.625414
+n5603014723,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,3,33.546666,-7.571896
+n5640584148,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2026-05-20T17:00:46Z,5,33.576027,-7.634339
+n5608200169,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,3,33.55545,-7.57243
+n5633100646,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Roches noires,2020-12-15T04:26:57Z,4,33.584759,-7.575508
+n4590441959,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2026-06-10T14:57:59Z,5,33.596425,-7.614963
+n5636182960,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2026-06-08T14:02:15Z,3,33.556425,-7.626537
+n5608312834,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,3,33.557105,-7.581143
+n13158416139,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-09-20T17:42:08Z,1,33.556333,-7.635366
+n13173181527,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Al Fida,2025-09-26T09:51:37Z,1,33.557311,-7.611094
+n5633523510,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2024-06-02T13:47:01Z,4,33.588204,-7.611634
+n5605123521,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.548159,-7.572818
+n5605662958,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Ben M'Sick,2020-12-15T04:26:57Z,2,33.548077,-7.578289
+n5633523964,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,3,33.587819,-7.613842
+n5605663000,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.547646,-7.574266
+n5605663017,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Ben M'Sick,2020-12-15T04:26:57Z,2,33.548704,-7.572455
+n5633592494,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Othmane,2020-12-11T06:28:19Z,3,33.561173,-7.565487
+n5633592495,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Othmane,2020-12-11T06:28:19Z,3,33.562905,-7.567912
+n13175181561,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2025-09-27T12:41:21Z,1,33.536141,-7.640139
+n5618306013,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Moumen,2020-12-11T06:28:19Z,2,33.581929,-7.524543
+n5618306050,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Moumen,2024-03-27T14:05:25Z,3,33.593997,-7.518231
+n5636207709,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2024-06-02T13:47:01Z,5,33.592497,-7.620856
+n5618306110,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Aïn Sebaâ,2024-03-27T14:05:25Z,3,33.602703,-7.536586
+n13186892480,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-10-01T23:14:29Z,1,33.566161,-7.638025
+n5618466789,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2025-03-25T18:16:02Z,5,33.580137,-7.635214
+n5608045847,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.553406,-7.590665
+n5625401686,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Sbata,2020-12-15T04:26:57Z,2,33.538697,-7.554549
+n5608045857,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.551335,-7.588535
+n5608045991,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Ben M'Sick,2020-12-11T06:28:19Z,2,33.550341,-7.573536
+n5581425914,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Mers Sultan,2025-12-12T02:38:21Z,5,33.573514,-7.614629
+n5625401687,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sbata,2020-12-11T06:28:19Z,2,33.53882,-7.555588
+n5636207787,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2025-12-08T02:54:49Z,4,33.583346,-7.622425
+n5581601023,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Al Fida,2025-02-03T18:27:06Z,3,33.563737,-7.591692
+n5638041957,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Sidi Moumen,2020-12-19T03:47:34Z,3,33.598124,-7.488214
+n5640732000,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-08-31T03:21:01Z,5,33.572844,-7.638448
+n5642020604,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Bernoussi,2024-03-27T14:05:25Z,4,33.605892,-7.514689
+n5642146147,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Bernoussi,2022-11-11T00:24:41Z,4,33.607012,-7.516967
+n5638416364,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Al Fida,2025-04-07T16:56:51Z,3,33.570477,-7.600475
+n5640023699,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Mers Sultan,2025-12-09T22:09:19Z,3,33.578567,-7.609735
+n5640192154,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Maârif,2020-12-19T03:47:34Z,3,33.574609,-7.632083
+n5640314035,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Mers Sultan,2025-04-07T16:56:51Z,3,33.57258,-7.606891
+n5640417530,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Bernoussi,2020-12-11T06:28:19Z,2,33.611499,-7.512837
+n5648126115,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Al Fida,2020-12-19T03:47:34Z,3,33.561937,-7.59733
+n5648126116,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,3,33.555628,-7.598437
+n5650242192,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,2,33.545187,-7.595025
+n5640584212,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-08-19T23:53:56Z,3,33.577483,-7.637831
+n5640584528,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-11-22T17:04:03Z,3,33.570982,-7.643124
+n5640584532,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2025-09-24T13:13:18Z,4,33.573951,-7.640787
+n5650331142,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.547359,-7.597947
+n5650331152,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,3,33.547403,-7.598122
+n5652211903,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.546141,-7.631432
+n5652472155,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.527613,-7.613094
+n5642566941,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2022-11-02T02:01:57Z,5,33.572226,-7.621875
+n5648099071,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Mers Sultan,2020-12-19T03:47:34Z,4,33.577094,-7.599428
+n5648099083,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Al Fida,2025-04-07T16:56:51Z,4,33.571744,-7.596673
+n5648126114,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Al Fida,2020-12-11T06:28:19Z,3,33.561876,-7.597586
+n5653989629,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.532604,-7.615976
+n5654030255,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2022-11-07T02:19:21Z,4,33.576259,-7.652325
+n5654603734,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,3,33.536187,-7.601989
+n5654630214,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2026-07-14T22:04:11Z,8,33.594648,-7.619813
+n5650301255,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Maârif,2025-12-04T21:38:26Z,3,33.580699,-7.61746
+n5650301262,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2025-12-04T22:21:04Z,4,33.579667,-7.617419
+n5655194959,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.535032,-7.596649
+n5655260589,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.535854,-7.60183
+n5656492175,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Anfa,2024-12-31T00:35:54Z,4,33.589632,-7.64045
+n5656492182,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2025-06-17T16:06:21Z,5,33.574256,-7.650149
+n5656714939,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Hay Hassani,2025-06-14T17:25:49Z,4,33.579444,-7.656452
+n5652534529,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2020-12-11T06:28:19Z,2,33.56919,-7.61482
+n5653989624,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Aïn-Chock,2020-12-11T06:28:19Z,3,33.533322,-7.614429
+n5656943149,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Al Fida,2020-12-19T03:47:34Z,2,33.563439,-7.609526
+n5657167257,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2026-06-06T18:48:06Z,4,33.58757,-7.615827
+n5657167262,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2022-11-06T13:02:54Z,3,33.586871,-7.615839
+n5657167268,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2026-06-06T18:48:06Z,4,33.585049,-7.615973
+n5654904148,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Mers Sultan,2020-12-11T06:28:19Z,3,33.569845,-7.602639
+n5657167294,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2024-09-29T13:29:09Z,4,33.585273,-7.606773
+n5657167309,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,3,33.59127,-7.608378
+n5657171533,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2024-06-02T13:47:01Z,4,33.590433,-7.614605
+n5657171540,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Belyout,2020-12-11T06:28:19Z,2,33.592818,-7.610883
+n5657171542,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2025-12-07T01:44:35Z,5,33.597005,-7.611093
+n5656937405,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Al Fida,2025-04-07T16:56:51Z,4,33.569487,-7.602118
+n5656943146,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Al Fida,2020-12-11T06:28:19Z,2,33.562672,-7.609411
+n5657171590,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2025-12-09T21:49:56Z,5,33.584782,-7.622554
+n5657171592,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2026-06-06T18:48:06Z,4,33.585524,-7.622106
+n13095382929,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Sidi Belyout,2025-08-25T02:10:39Z,1,33.595741,-7.612295
+n13095386345,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Hay Hassani,2025-08-25T02:54:43Z,1,33.573669,-7.65604
+n5664415368,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Hay Hassani,2020-12-19T03:47:34Z,2,33.537055,-7.669282
+n5664725437,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Hassani,2020-12-11T06:28:19Z,2,33.556828,-7.682803
+n5657171556,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2025-04-07T16:38:31Z,5,33.593983,-7.608195
+n5657171565,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2025-08-23T20:43:30Z,4,33.590879,-7.610991
+n5657171575,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2024-09-24T14:51:31Z,4,33.591032,-7.613747
+n5670372380,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Hay Hassani,2025-07-24T19:02:45Z,4,33.567269,-7.677173
+n5657388296,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Maârif,2026-06-08T21:19:09Z,7,33.586254,-7.634523
+n5673409133,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Hay Hassani,2024-10-31T19:50:55Z,3,33.554759,-7.678087
+n5664897326,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Hassani,2024-04-04T12:00:29Z,3,33.560021,-7.674892
+n5673669979,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Aïn-Chock,2024-10-19T17:54:35Z,3,33.525163,-7.650651
+n5670829657,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Hay Hassani,2025-11-21T15:07:38Z,3,33.57643,-7.67316
+n5670829667,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Hay Hassani,2025-11-21T15:07:38Z,3,33.576811,-7.673662
+n5670832671,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2022-11-07T16:43:28Z,4,33.514634,-7.646431
+n5682503619,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2026-06-08T21:34:35Z,7,33.585752,-7.633951
+n5682651391,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2024-11-10T15:23:16Z,4,33.581805,-7.639088
+n5685625658,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Hassani,2020-12-11T06:28:19Z,2,33.54286,-7.677923
+n5685625690,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Hay Hassani,2025-08-29T03:27:11Z,3,33.540172,-7.682787
+n5685664892,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2024-10-16T07:29:51Z,5,33.574411,-7.64377
+n5685864655,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Hay Hassani,2024-08-16T08:15:56Z,4,33.569985,-7.651691
+n5686168724,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Hassani,2020-12-11T06:28:19Z,2,33.545303,-7.673435
+n5682462217,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Maârif,2026-06-19T16:26:56Z,10,33.590124,-7.637708
+n7169432351,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Bernoussi,2024-03-27T14:05:25Z,3,33.606642,-7.518596
+n7169432366,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Aïn Sebaâ,2024-03-27T14:05:25Z,3,33.607713,-7.523286
+n5691535070,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Sidi Belyout,2025-04-07T16:38:31Z,5,33.5965,-7.612686
+n5692969075,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Maârif,2026-06-09T23:45:22Z,5,33.57995,-7.635426
+n7350502986,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,التجاري وفا بنك,True,Sidi Belyout,2025-03-25T18:28:18Z,5,33.592578,-7.632224
+n10292878720,gab,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,Saham Bank سهام بنك,True,Sidi Belyout,2026-06-06T18:48:06Z,5,33.594833,-7.614445
+n5723489360,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,التجاري وفا بنك,True,Anfa,2026-03-04T06:31:49Z,4,33.595995,-7.651926
+n7168971479,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Sidi Bernoussi,2020-12-11T06:28:19Z,2,33.616082,-7.497258
+n11413681069,gab,Bank of Africa,False,Bank of Africa,BMCE Bank,BMCE Bank,True,Mers Sultan,2025-03-28T03:04:02Z,2,33.583925,-7.60942
+w483562430,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,4,33.552003,-7.608832
+w584981986,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Aïn Sebaâ,2024-03-27T14:05:25Z,3,33.60034,-7.525542
+w587345441,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,القرض العقاري والسياحي,القرض العقاري والسياحي,True,Sidi Bernoussi,2020-12-19T03:47:34Z,3,33.616819,-7.496865
+w592434914,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,البنك المغربي للتجارة والصناعة,True,Aïn-Chock,2020-12-15T04:26:57Z,3,33.533123,-7.605024
+w589327213,agence,CIH Bank,True,CIH Bank القرض العقاري والسياحي,CIH Bank,القرض العقاري والسياحي,True,Aïn Sebaâ,2024-03-27T14:05:25Z,5,33.595628,-7.559325
+w590233957,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Hay Mohammadi,2020-12-11T06:28:19Z,3,33.583945,-7.57065
+w590284842,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,BMCI,البنك المغربي للتجارة والصناعة,True,Roches noires,2025-04-07T16:38:31Z,5,33.591891,-7.600711
+w590284843,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,التجاري وفا بنك,التجاري وفا بنك,True,Roches noires,2020-12-11T06:28:19Z,3,33.591563,-7.601529
+n10899907086,gab,Bank of Africa,False,Banque BMCE,BMCE Bank,BMCE Bank,True,Anfa,2024-12-10T00:03:49Z,3,33.576475,-7.705515
+n13337016567,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-11-27T20:51:30Z,1,33.583225,-7.632279
+n13362536446,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Bernoussi,2025-12-08T21:36:50Z,1,33.612394,-7.49521
+n13362536447,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Bernoussi,2025-12-08T21:36:50Z,1,33.612301,-7.495269
+n13362536449,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-12-08T21:36:50Z,1,33.611991,-7.495818
+n13362551304,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:35:14Z,1,33.585682,-7.575933
+n13409316317,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Anfa,2025-12-26T22:25:04Z,2,33.594392,-7.642372
+n5589601459,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,3,33.569817,-7.582929
+n5589601462,gab,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Al Fida,2025-12-08T21:33:05Z,4,33.572113,-7.581336
+n5593149212,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Al Fida,2025-12-08T21:33:05Z,5,33.563871,-7.5949
+n5593149820,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,4,33.570065,-7.595929
+n5579479071,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Mers Sultan,2025-06-21T14:38:35Z,6,33.588257,-7.602665
+n5579516487,gab,Crédit du Maroc,False,,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,True,Sidi Belyout,2026-06-06T18:48:06Z,3,33.590487,-7.604784
+n5581378935,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,4,33.563958,-7.594916
+n5581425910,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Mers Sultan,2025-08-23T21:01:21Z,3,33.576988,-7.615203
+n5603014737,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sbata,2025-12-08T21:33:05Z,4,33.545518,-7.57373
+n5604819662,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sbata,2025-08-23T19:06:46Z,4,33.542242,-7.579255
+n13203028406,agence,BMCI,False,BMCI Bank,BMCI,,True,Maârif,2025-10-08T15:45:58Z,1,33.565142,-7.637121
+n13203319354,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-10-08T18:16:42Z,1,33.573236,-7.646238
+n13319995027,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Bernoussi,2025-11-20T19:31:30Z,1,33.609465,-7.496192
+n13319995028,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Bernoussi,2025-11-20T19:31:30Z,1,33.609331,-7.496057
+n13319995029,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Bernoussi,2025-11-20T19:31:30Z,1,33.608987,-7.496029
+n4359909309,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,3,33.551687,-7.680669
+n13321724932,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Anfa,2026-05-23T16:28:29Z,2,33.572523,-7.687194
+n13321724945,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Anfa,2025-11-21T10:28:48Z,1,33.572378,-7.687547
+n13321969395,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Anfa,2025-11-21T14:05:56Z,1,33.57735,-7.674032
+n13329362712,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Anfa,2025-11-24T23:49:57Z,1,33.598033,-7.644007
+n13336445795,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-11-27T16:05:47Z,1,33.581339,-7.631567
+n5608044174,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Ben M'Sick,2025-08-23T19:06:46Z,5,33.556714,-7.584831
+n5608045838,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,3,33.555381,-7.592443
+n5595534312,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sbata,2025-12-08T21:33:05Z,4,33.540319,-7.56842
+n5595616131,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sbata,2025-06-21T14:38:35Z,3,33.541425,-7.572057
+n5595616191,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sbata,2025-06-21T14:38:35Z,3,33.537432,-7.573224
+n5602844150,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sbata,2025-12-08T21:33:05Z,4,33.539833,-7.575256
+n5608200160,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,4,33.554992,-7.572028
+n5608200178,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Ben M'Sick,2025-12-08T21:33:05Z,6,33.555742,-7.572694
+n5608241121,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,5,33.623583,-7.524365
+n5609759673,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,4,33.552337,-7.584646
+n5609841923,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.613765,-7.526476
+n5605122405,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sbata,2025-06-21T14:38:35Z,3,33.546102,-7.576236
+n5605662995,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Ben M'Sick,2025-12-08T21:33:05Z,4,33.546601,-7.575985
+n5607695563,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Ben M'Sick,2025-08-23T19:06:46Z,4,33.550266,-7.580478
+n5607978779,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,4,33.600905,-7.587178
+n5618305986,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,3,33.581921,-7.538221
+n5618306079,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,4,33.589477,-7.519607
+n5618306158,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,4,33.593075,-7.517816
+n5618306163,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Moumen,2025-12-08T21:33:05Z,5,33.593627,-7.517783
+n5608045852,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Ben M'Sick,2025-12-08T21:33:05Z,4,33.551598,-7.589027
+n5608199895,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Ben M'Sick,2025-08-23T19:06:46Z,6,33.552632,-7.575458
+n5608199900,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Ben M'Sick,2025-08-23T19:06:46Z,5,33.552361,-7.578627
+n5608199908,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,4,33.5514,-7.580215
+n5620249785,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,3,33.594453,-7.498663
+n5620341685,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Moulay Rachid,2025-08-23T19:06:46Z,4,33.571193,-7.531131
+n5620694655,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Moulay Rachid,2025-06-21T14:38:35Z,6,33.571438,-7.527947
+n5620795132,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.602121,-7.523924
+n5620801101,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Mohammadi,2025-06-21T14:38:35Z,5,33.580839,-7.558304
+n5623158229,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,5,33.609992,-7.542948
+n5610101866,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,5,33.598802,-7.583784
+n5610200187,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn Sebaâ,2025-08-23T19:06:46Z,7,33.599542,-7.537496
+n5610457007,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,3,33.623213,-7.486358
+n5625401688,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sbata,2025-06-21T14:38:35Z,3,33.538861,-7.555768
+n5625401690,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sbata,2025-12-08T21:33:05Z,4,33.53916,-7.556569
+n5626812138,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sbata,2025-08-23T19:06:46Z,4,33.538047,-7.553471
+n5626878893,agence,BMCI,False,BMCI Bank,BMCI,,True,Aïn Sebaâ,2024-03-27T14:05:25Z,3,33.606711,-7.534984
+n5627299150,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,5,33.587533,-7.61176
+n5627299172,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2024-06-02T13:47:01Z,2,33.587621,-7.610023
+n5627432626,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Mohammadi,2025-06-21T14:38:35Z,7,33.588121,-7.575874
+n5620068021,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,5,33.577499,-7.516086
+n5632965262,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Othmane,2025-06-21T14:38:35Z,4,33.562956,-7.568101
+n5632965672,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Othmane,2025-06-21T14:38:35Z,3,33.563248,-7.557233
+n5633153196,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Othmane,2025-06-21T14:38:35Z,3,33.557208,-7.558554
+n5633328211,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Moulay Rachid,2025-08-23T19:06:46Z,4,33.558301,-7.549411
+n5633328213,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Moulay Rachid,2025-06-21T14:38:35Z,4,33.559423,-7.550386
+n5633594728,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Sidi Othmane,2026-04-17T01:10:05Z,4,33.560024,-7.561643
+n5633635666,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,3,33.567807,-7.626331
+n5633747541,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Al Fida,2025-08-23T19:06:46Z,4,33.564744,-7.586994
+n5625146726,agence,BMCI,False,BMCI Bank,BMCI,,True,Aïn Sebaâ,2024-03-27T14:05:25Z,4,33.604587,-7.545833
+n5633747574,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Ben M'Sick,2025-12-08T21:33:05Z,6,33.556722,-7.586465
+n5633747579,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,5,33.55671,-7.585546
+n5633748081,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Ben M'Sick,2025-06-21T14:38:35Z,4,33.561106,-7.57631
+n5633748231,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Othmane,2025-12-08T21:33:05Z,6,33.562665,-7.566836
+n5636025097,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:33:05Z,8,33.590586,-7.602472
+n5636127376,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:33:05Z,7,33.584135,-7.582638
+n5636182823,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.579333,-7.624777
+n5636182870,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2026-04-22T00:43:27Z,2,33.567934,-7.626367
+n5632885406,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Moulay Rachid,2025-06-21T14:38:35Z,6,33.570075,-7.557132
+n5636207694,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,6,33.587592,-7.619495
+n13111184525,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-08-31T22:48:15Z,1,33.555753,-7.610723
+n13123133200,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-09-06T10:29:24Z,1,33.579591,-7.636544
+n13138318152,agence,Umnia Bank,False,Umnia Bank أمنية بنك,Umnia Bank أمنية بنك,,True,Maârif,2025-09-12T14:37:51Z,1,33.560512,-7.644211
+n13141823154,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2025-11-24T15:17:40Z,3,33.574611,-7.643551
+n13179271201,agence,BMCI,False,BMCI Bank,BMCI,,True,Maârif,2025-09-28T22:49:58Z,1,33.555017,-7.623399
+n13196802643,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Hay Hassani,2025-11-20T17:14:17Z,2,33.561227,-7.670807
+n13201315719,gab,Banque Populaire,False,,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,True,Sidi Belyout,2026-06-06T18:48:06Z,3,33.589098,-7.633934
+n13201385404,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2026-05-22T18:11:24Z,2,33.589251,-7.634009
+n13201402516,gab,Crédit du Maroc,False,,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,True,Maârif,2026-05-21T02:44:13Z,4,33.589704,-7.638836
+n5638348015,agence,Bank Assafa,False,Bank Assafa بنك الصفاء,Bank Assafa بنك الصفاء,,True,Maârif,2025-08-29T18:19:44Z,3,33.582181,-7.631229
+n5638348130,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-11-23T00:15:13Z,2,33.582387,-7.630767
+n5636182871,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-12-08T21:33:05Z,4,33.568636,-7.626305
+n5636182884,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-12-08T21:33:05Z,4,33.573206,-7.62611
+n5636182938,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2026-06-06T18:48:06Z,2,33.579752,-7.625284
+n5636182961,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,3,33.55658,-7.626027
+n5636182969,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-12-08T21:33:05Z,4,33.555267,-7.623907
+n5640459152,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.541359,-7.641774
+n5640550652,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,4,33.608751,-7.501007
+n5640584141,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.570247,-7.643187
+n5636207733,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Belyout,2025-11-20T17:14:17Z,3,33.589653,-7.619249
+n5636207740,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,4,33.58846,-7.6204
+n5636207792,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.584649,-7.621651
+n1464579588,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:33:05Z,7,33.591285,-7.59085
+n5638301072,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,3,33.562581,-7.608893
+n5638347789,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,3,33.583116,-7.632379
+n5638347842,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.585149,-7.630283
+n1746905777,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,8,33.595111,-7.62744
+n5641942760,agence,Al Barid Bank,False,Al Barid Bank البريد بنك,Al Barid Bank البريد بنك,,True,Maârif,2026-06-06T18:48:06Z,2,33.577768,-7.625259
+n770235525,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-10-07T19:11:12Z,5,33.589076,-7.633877
+n5642022158,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Bernoussi,2025-08-23T19:06:46Z,8,33.607041,-7.515115
+n5642023541,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Moumen,2025-12-08T21:33:05Z,5,33.598357,-7.485492
+n5642146142,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,4,33.606705,-7.517649
+n5638416349,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,3,33.563155,-7.601177
+n5638416350,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,4,33.562846,-7.602878
+n1464579536,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Roches noires,2025-04-07T16:38:31Z,2,33.59402,-7.596075
+n1464579546,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:33:05Z,9,33.590426,-7.602881
+n5640187529,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Al Fida,2025-11-20T17:14:17Z,3,33.565681,-7.606061
+n1823230283,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-29T19:17:37Z,5,33.577281,-7.64734
+n5640192247,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,3,33.576667,-7.625976
+n1867124353,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Maârif,2026-06-18T01:37:19Z,12,33.587136,-7.639214
+n2140789290,gab,BMCI,False,,BMCI,BMCI,True,Sidi Belyout,2026-04-17T00:39:52Z,2,33.594355,-7.633797
+n2140789504,agence,BMCI,False,BMCI,BMCI,,True,Sidi Belyout,2026-04-17T00:39:52Z,2,33.594373,-7.633722
+n2396759291,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,5,33.515764,-7.655227
+n5648126117,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,5,33.555673,-7.598341
+n5649658380,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,5,33.556876,-7.60193
+n5649732660,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.554776,-7.600223
+n5650123826,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.547738,-7.589682
+n2429582907,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2022-11-06T13:02:54Z,3,33.596916,-7.613652
+n5640584153,agence,BMCI,False,BMCI Bank,BMCI,,True,Maârif,2025-10-01T23:14:29Z,4,33.574746,-7.634769
+n5640584154,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-10-01T23:14:29Z,8,33.575096,-7.634635
+n5640584191,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-11-22T17:04:03Z,2,33.570141,-7.6438
+n2640314817,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2026-04-16T09:50:38Z,6,33.578312,-7.646052
+n5640584527,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.57056,-7.643444
+n2640991962,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-08-12T03:21:12Z,8,33.584005,-7.639737
+n2640991965,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-06-02T21:53:46Z,9,33.584009,-7.64012
+n5640623473,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Bernoussi,2025-12-08T21:33:05Z,7,33.608137,-7.502915
+n5640731999,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-30T21:38:10Z,6,33.572711,-7.638141
+n1464579564,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Roches noires,2025-12-08T21:33:05Z,7,33.594163,-7.595818
+n3120507344,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Roches noires,2025-08-23T19:06:46Z,5,33.593114,-7.588487
+n5650331157,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,5,33.547886,-7.599522
+n5652211902,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,5,33.546657,-7.631154
+n2640991969,agence,Al Barid Bank,False,Al Barid Bank البريد بنك,Al Barid Bank البريد بنك,,True,Maârif,2026-05-21T00:58:26Z,3,33.579901,-7.636243
+n5652472141,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,5,33.53255,-7.615183
+n2681851804,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sbata,2025-06-21T14:38:35Z,5,33.54384,-7.562496
+n5642566940,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,7,33.572236,-7.623069
+n2694336683,agence,Attijariwafa bank,False,Attijari Wafa Bank,,Attijari Wafa Bank,False,Sidi Othmane,2014-03-10T15:54:40Z,4,33.564134,-7.555813
+n5642716194,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn Sebaâ,2025-12-08T21:33:05Z,6,33.607728,-7.535893
+n5648037297,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,8,33.593286,-7.60381
+n5648099056,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Mers Sultan,2025-11-20T17:14:17Z,4,33.572455,-7.597183
+n2711741041,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-11-24T16:03:54Z,8,33.581146,-7.642016
+n5648099076,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Mers Sultan,2025-12-08T21:33:05Z,5,33.574412,-7.598119
+n2824735332,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2026-05-20T18:01:30Z,4,33.584682,-7.632655
+n2879721300,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Anfa,2026-06-08T22:36:49Z,6,33.592026,-7.639753
+n2880503243,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Bernoussi,2025-11-20T17:14:17Z,3,33.609346,-7.49685
+n5654030253,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,8,33.576093,-7.65216
+n5654030254,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2022-11-07T02:19:21Z,3,33.576042,-7.652022
+n2895835489,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Anfa,2025-08-19T22:23:17Z,8,33.59029,-7.638284
+n5654105792,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.569664,-7.622783
+n5654316286,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.536499,-7.595754
+n5654598219,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,3,33.53642,-7.602078
+n2903614165,agence,Attijariwafa bank,False,Attijari wafa Bank التجاري وفا بنك,Attijariwafa Bank,,True,Hay Hassani,2025-06-12T14:37:03Z,3,33.573026,-7.657053
+n2903614177,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-19T02:27:46Z,5,33.573469,-7.655471
+n5654832263,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Al Fida,2025-12-08T21:33:05Z,5,33.568935,-7.603029
+n3359705493,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,7,33.595097,-7.624607
+n5650301258,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,3,33.570214,-7.615304
+n5650301261,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Mers Sultan,2025-12-09T22:09:19Z,4,33.573414,-7.61267
+n3359724139,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,3,33.595656,-7.624946
+n5650320193,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Moulay Rachid,2025-06-21T14:38:35Z,3,33.570837,-7.560827
+n5650331137,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Aïn-Chock,2025-11-20T17:14:17Z,3,33.547422,-7.591329
+n5654904149,agence,BMCI,False,BMCI Bank,BMCI,,True,Mers Sultan,2025-04-07T16:56:51Z,3,33.569905,-7.602408
+n3370419660,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,5,33.592704,-7.627893
+n3590412056,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Ben M'Sick,2025-08-23T18:54:14Z,3,33.551434,-7.588414
+n5656492168,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Anfa,2025-08-23T19:06:46Z,6,33.588284,-7.644317
+n4100238891,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,8,33.589336,-7.629244
+n2903627415,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,4,33.57149,-7.620103
+n5656714930,agence,BMCI,False,BMCI Bank,BMCI,,True,Hay Hassani,2022-11-07T02:19:21Z,2,33.576272,-7.652993
+n5656714931,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Hay Hassani,2022-11-07T02:19:21Z,2,33.576428,-7.653174
+n5656714933,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,4,33.578452,-7.655456
+n2916714197,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2024-06-02T13:47:01Z,2,33.591921,-7.626573
+n5656714973,agence,BMCI,False,BMCI Bank,BMCI,,True,Hay Hassani,2025-06-14T17:25:49Z,3,33.5812,-7.659762
+n5656937395,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Al Fida,2025-08-23T19:06:46Z,5,33.568509,-7.603722
+n5656937400,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Al Fida,2025-04-07T16:56:51Z,2,33.569203,-7.602598
+n2970393166,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2025-11-20T17:14:17Z,6,33.587702,-7.643737
+n5652589222,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,6,33.54322,-7.585341
+n3091356729,agence,CFG Bank,False,CFG Bank,CFG Bank,,True,Maârif,2026-04-16T15:17:09Z,6,33.58751,-7.642907
+n5656943147,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,3,33.562838,-7.60944
+n5656943148,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Al Fida,2025-08-23T19:06:46Z,5,33.56316,-7.609471
+n3120505962,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Roches noires,2025-11-20T17:14:17Z,4,33.595362,-7.586166
+n5656943150,agence,BMCI,False,BMCI Bank,BMCI,,True,Al Fida,2025-04-07T16:56:51Z,2,33.563865,-7.609569
+n5656943156,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Mers Sultan,2025-06-21T14:38:35Z,4,33.56762,-7.605772
+n5657021369,agence,Bank Assafa,False,Bank Assafa بنك الصفاء,Bank Assafa بنك الصفاء,,True,Hay Hassani,2025-11-21T16:25:16Z,3,33.570794,-7.646465
+n4190920192,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,8,33.58531,-7.620091
+n5657167258,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,4,33.5875,-7.615411
+n4193523917,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2025-04-07T16:38:31Z,2,33.595116,-7.615671
+n5657167266,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,4,33.586026,-7.614639
+n4193550789,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,6,33.594783,-7.616676
+n5657167273,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,4,33.583577,-7.613139
+n5657167277,agence,Al Barid Bank,False,Al Barid Bank البريد بنك,Al Barid Bank البريد بنك,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.583687,-7.61427
+n5657167286,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2024-09-29T13:29:09Z,2,33.584019,-7.610512
+n5654904142,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Mers Sultan,2025-08-23T19:06:46Z,4,33.57168,-7.60574
+n4193591635,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,9,33.598809,-7.614849
+n4193594790,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,7,33.594947,-7.613751
+n5657167296,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,7,33.59242,-7.603475
+n4194213458,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,8,33.582985,-7.617242
+n5657167311,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,6,33.588956,-7.612002
+n5657167313,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2026-06-06T18:48:06Z,3,33.588392,-7.608901
+n5657167320,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,4,33.596576,-7.613743
+n3207307120,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,5,33.592173,-7.624338
+n5657171535,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,7,33.59096,-7.614881
+n5657171538,agence,BMCI,False,BMCI Bank,BMCI,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.592726,-7.611958
+n5657171539,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.592907,-7.611836
+n3214359706,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-11-24T12:05:04Z,8,33.569213,-7.644582
+n3229636312,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T18:54:14Z,3,33.592835,-7.623606
+n5657171543,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-12-07T01:44:35Z,8,33.597005,-7.611551
+n5657171551,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,5,33.594486,-7.610301
+n3229638488,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,6,33.594291,-7.628633
+n3301633866,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Anfa,2025-06-21T14:38:35Z,4,33.594747,-7.651719
+n5657171588,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,7,33.592776,-7.617908
+n3346775598,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,8,33.590529,-7.627179
+n4225325195,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,7,33.58572,-7.613722
+n5657388281,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-11-27T20:51:30Z,6,33.580592,-7.63484
+n13093047146,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T20:44:17Z,1,33.591804,-7.607245
+n13093050092,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T20:35:35Z,1,33.555921,-7.683817
+n13093050093,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-08-23T20:35:35Z,1,33.555858,-7.68403
+n13093058860,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Al Fida,2025-08-23T20:43:03Z,1,33.559724,-7.611719
+n13093061083,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T20:38:02Z,1,33.571929,-7.669018
+n13093068734,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T20:43:30Z,1,33.590677,-7.611594
+n13093069114,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T20:40:01Z,1,33.554343,-7.623272
+n4225325231,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,7,33.587759,-7.61234
+n4232899412,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,3,33.592007,-7.614698
+n13096439429,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-08-25T13:28:07Z,1,33.587363,-7.646344
+n13096440028,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Anfa,2025-08-25T13:29:44Z,1,33.590996,-7.676938
+n5657167293,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,7,33.58523,-7.606912
+n4232899413,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,4,33.59218,-7.614355
+n5664415388,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.538675,-7.667835
+n5664415749,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-08-19T02:07:09Z,4,33.56434,-7.64406
+n5664415751,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-11-22T14:32:49Z,4,33.570914,-7.646087
+n4326939035,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,3,33.620418,-7.486989
+n5664897325,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.559862,-7.6745
+n5657171552,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,7,33.594111,-7.608936
+n4349140789,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-09-12T14:37:51Z,6,33.557404,-7.644054
+n5657171562,agence,Al Barid Bank,False,Al Barid Bank البريد بنك,Al Barid Bank البريد بنك,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.592465,-7.607065
+w588780138,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.614819,-7.536166
+n5657171569,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.58981,-7.611435
+n5657171570,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,6,33.59035,-7.61209
+n4367027391,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Maârif,2026-05-21T14:09:07Z,13,33.586994,-7.637902
+n5657171576,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2025-08-23T19:06:46Z,5,33.59107,-7.613941
+n5657171584,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2024-06-02T13:47:01Z,2,33.59169,-7.615761
+n5657171585,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,6,33.591885,-7.615616
+n5664897327,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,4,33.559687,-7.674937
+n5667323176,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,8,33.594104,-7.629788
+n5667590615,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,6,33.564601,-7.668112
+n5668012037,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Hay Hassani,2025-07-24T13:08:03Z,3,33.569957,-7.672042
+n5668012421,agence,BMCI,False,BMCI Bank,BMCI,,True,Hay Hassani,2025-07-24T13:08:03Z,3,33.570068,-7.671998
+n5670372342,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.566129,-7.683176
+n5670372379,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,6,33.567132,-7.677099
+n4190920116,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Belyout,2026-06-06T18:48:06Z,3,33.582849,-7.618819
+n5670372389,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-07-24T19:02:45Z,5,33.56743,-7.677147
+n5670403177,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,6,33.532746,-7.682891
+n5657388291,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-02-13T22:46:19Z,4,33.581246,-7.634122
+n13924424120,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-06-14T22:37:07Z,2,33.587976,-7.63617
+n5657388297,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2026-06-08T21:34:35Z,11,33.585574,-7.633707
+n5664414589,agence,BMCI,False,BMCI Bank,BMCI,,True,Hay Hassani,2025-08-29T03:27:11Z,2,33.539428,-7.682028
+n5664414616,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,5,33.537925,-7.679237
+n5664415325,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,7,33.537765,-7.679504
+n5670833155,agence,BMCI,False,BMCI Bank,BMCI,,True,Aïn-Chock,2024-10-19T17:54:35Z,2,33.530822,-7.64854
+n5670833160,agence,Bank Assafa,False,Bank Assafa بنك الصفاء,Bank Assafa بنك الصفاء,,True,Aïn-Chock,2025-06-21T15:04:00Z,2,33.530999,-7.648489
+n5670833165,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,5,33.531505,-7.648324
+n14003191479,agence,Banque Populaire,False,Banque Populaire,Banque Populaire,,True,Hay Hassani,2026-07-10T18:41:17Z,1,33.572294,-7.673986
+n5673410028,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,3,33.514959,-7.647451
+n5673410235,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.510618,-7.656443
+n5673410248,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-12-08T21:33:05Z,6,33.512676,-7.655722
+n13016331599,agence,Attijariwafa bank,False,Attijariwafa Bank,Attijariwafa Bank,,True,Hay Hassani,2025-07-21T23:15:59Z,1,33.572352,-7.66931
+n13020866006,gab,Banque Populaire,False,,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,True,Hay Hassani,2025-08-19T02:27:46Z,2,33.573434,-7.664275
+n13062537143,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Anfa,2025-08-19T22:23:17Z,2,33.592137,-7.639365
+n13064582592,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-11-27T23:43:48Z,3,33.587399,-7.64085
+n13076749075,agence,Umnia Bank,False,Umnia Bank أمنية بنك,Umnia Bank أمنية بنك,,True,Anfa,2025-08-17T22:46:00Z,1,33.59188,-7.641953
+n13079615734,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-08-25T02:34:36Z,2,33.572737,-7.657456
+n13079622210,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-08-19T02:07:09Z,1,33.564516,-7.644782
+n13082749385,agence,Attijariwafa bank,False,Attijariwafa Bank,Attijariwafa Bank,,True,Anfa,2026-06-08T22:36:49Z,5,33.591096,-7.636443
+n14019815228,agence,Bank of Africa,False,Bank of Africa,Bank of Africa,,True,Hay Hassani,2026-07-16T12:06:47Z,1,33.570271,-7.671283
+n5673410297,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Aïn-Chock,2022-11-24T14:26:24Z,2,33.518109,-7.653232
+n5673410622,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.525521,-7.650548
+n5673410628,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Aïn-Chock,2024-10-19T17:54:35Z,2,33.530159,-7.648367
+n5673410629,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Aïn-Chock,2024-10-19T17:54:35Z,2,33.531449,-7.647864
+n5673410657,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Aïn-Chock,2025-10-15T19:02:05Z,2,33.540988,-7.642961
+n5673630955,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,5,33.554731,-7.678415
+n4402405190,gab,Non identifiée,False,résidence cheminots,,ONCF,False,Hay Mohammadi,2018-10-22T10:19:06Z,2,33.599539,-7.566468
+n5673763946,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,5,33.555749,-7.676458
+n5676425517,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,4,33.556054,-7.684993
+n5682335735,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-06-09T21:07:48Z,8,33.586284,-7.631107
+n4436143592,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T18:54:14Z,3,33.551207,-7.682057
+n5670829666,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-11-21T15:07:38Z,4,33.57673,-7.673367
+n4624060754,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Maârif,2026-03-04T06:17:15Z,6,33.571021,-7.646209
+n5670832666,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,6,33.514598,-7.646251
+n5670833148,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,5,33.528174,-7.649425
+n4962871423,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,4,33.575921,-7.511339
+n5022604321,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-06-21T14:38:35Z,5,33.588432,-7.627192
+n5682843432,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,4,33.578485,-7.63849
+n5682882945,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.551184,-7.688918
+n5682882952,agence,BMCI,False,BMCI Bank,BMCI,,True,Hay Hassani,2025-08-29T03:27:11Z,2,33.550816,-7.688803
+n5682994613,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,4,33.552762,-7.690153
+n5685395061,agence,Bank Al Yousr,False,Bank Al Yousr بنك اليسر,Bank Al Yousr بنك اليسر,,True,Maârif,2025-11-24T14:56:31Z,7,33.571966,-7.647407
+n5197907673,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,7,33.607315,-7.536628
+n5685625663,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,4,33.541391,-7.676954
+n5685625680,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.53988,-7.682529
+n5197907677,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn Sebaâ,2025-08-24T17:28:23Z,8,33.606488,-7.539048
+n5197907827,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Aïn Sebaâ,2024-03-27T14:05:25Z,3,33.607401,-7.536729
+n5673410263,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Aïn-Chock,2025-11-20T17:14:17Z,3,33.515903,-7.654355
+n5673410273,agence,BMCI,False,BMCI Bank,BMCI,,True,Aïn-Chock,2022-11-06T13:47:03Z,2,33.5169,-7.653924
+n5673410284,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.517137,-7.653793
+n5673410293,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,6,33.517912,-7.653359
+n5685664914,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Maârif,2025-09-24T13:13:18Z,7,33.574872,-7.642445
+n5685664920,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Hay Hassani,2024-08-16T08:16:26Z,3,33.56959,-7.65175
+n5685742313,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Hay Hassani,2025-10-05T23:59:23Z,5,33.569434,-7.653026
+n5685795433,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,5,33.539812,-7.682082
+n5685795440,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,4,33.542561,-7.684169
+n5685864653,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2022-11-07T02:19:21Z,4,33.573349,-7.645079
+n4205782466,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Mers Sultan,2025-08-23T19:06:46Z,5,33.587261,-7.604596
+n5685908645,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-23T19:06:46Z,5,33.572943,-7.645759
+n5685981501,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.544708,-7.6791
+n5686129311,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-06-21T14:38:35Z,3,33.545566,-7.672934
+n4221347647,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Roches noires,2025-08-23T19:06:46Z,4,33.589847,-7.592599
+n5686322672,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,3,33.533183,-7.651405
+n5686322677,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,4,33.533264,-7.65181
+n5682372973,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Maârif,2026-06-20T01:39:37Z,7,33.589678,-7.63644
+n5682455522,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2026-06-09T22:58:49Z,6,33.586507,-7.630644
+n13750360795,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Belyout,2026-04-21T20:01:45Z,1,33.593416,-7.636393
+n5699820025,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,5,33.564177,-7.683252
+n5699921767,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Hay Hassani,2025-11-20T17:14:17Z,4,33.554505,-7.700213
+n12497832713,agence,Attijariwafa bank,False,Attijariwafa Bank,Attijariwafa Bank,,True,Maârif,2025-11-24T16:03:54Z,2,33.579984,-7.640171
+n12671270111,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-12-08T21:33:05Z,2,33.575897,-7.651981
+n12714991925,agence,Bank Al Yousr,False,Bank Al Yousr بنك اليسر,Bank Al Yousr بنك اليسر,,True,Anfa,2025-08-19T22:23:17Z,8,33.590208,-7.638675
+n12714991926,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-06-04T10:08:58Z,3,33.589567,-7.639181
+n12717183634,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-03-31T21:51:53Z,1,33.585531,-7.645685
+n12741943708,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Anfa,2025-08-23T18:54:14Z,4,33.593184,-7.640038
+n12803972676,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-09-07T14:03:49Z,4,33.587683,-7.642141
+n12827600384,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-05-11T04:10:43Z,1,33.573191,-7.639165
+n12840711139,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2025-08-30T21:14:53Z,3,33.576041,-7.638335
+n12909601286,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Anfa,2025-06-12T14:16:09Z,1,33.589815,-7.649545
+n12909722018,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Anfa,2025-06-12T15:15:39Z,1,33.594327,-7.651803
+n12911466289,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-10-17T11:44:04Z,2,33.58753,-7.632145
+n12915147984,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Hay Hassani,2026-06-11T06:54:50Z,2,33.565135,-7.647619
+n12915147985,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-26T19:22:58Z,2,33.565253,-7.647475
+n13850665328,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2026-06-06T18:48:06Z,3,33.587897,-7.633257
+n7169432359,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn Sebaâ,2025-12-08T21:33:05Z,6,33.608399,-7.521715
+n13850665330,agence,Bank Assafa,False,Bank Assafa بنك الصفاء,Bank Assafa بنك الصفاء,,True,Maârif,2026-05-21T20:45:08Z,3,33.58905,-7.634433
+n5688433308,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Aïn-Chock,2024-10-19T17:54:35Z,2,33.52573,-7.650844
+n5688433309,agence,Crédit Agricole du Maroc,False,Crédit agricole du Maroc القرض الفلاحي,Crédit agricole du Maroc القرض الفلاحي,,True,Aïn-Chock,2025-12-06T13:52:40Z,4,33.525805,-7.650795
+n5688804442,agence,BMCI,False,BMCI Bank,BMCI,,True,Aïn-Chock,2024-10-21T20:15:25Z,2,33.541057,-7.643191
+n5688804443,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Aïn-Chock,2025-11-20T17:14:17Z,3,33.541293,-7.643175
+n13853502944,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2026-05-21T00:58:26Z,2,33.580464,-7.637074
+n5691622252,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2026-04-16T12:53:35Z,7,33.575412,-7.642101
+n5692956393,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-06-09T22:16:40Z,7,33.581473,-7.63349
+n5692956419,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Maârif,2025-06-21T14:38:35Z,5,33.573145,-7.64539
+n5692969072,agence,Attijariwafa bank,False,Attijarawafa Bank,Attijariwafa Bank,,True,Maârif,2025-03-26T20:56:29Z,3,33.583881,-7.631629
+n5314927523,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Belyout,2025-12-08T21:33:05Z,5,33.59487,-7.614467
+n5693101476,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-08-25T13:34:08Z,6,33.573739,-7.670394
+n5693256291,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-09-28T23:15:09Z,5,33.56944,-7.652251
+n5699812220,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,5,33.565942,-7.683451
+n5314927721,agence,Bank of Africa,False,Bank of Africa,Bank of Africa,,True,Sidi Belyout,2025-07-28T20:59:08Z,3,33.60589,-7.629154
+n8756312690,agence,Attijariwafa bank,False,Attijariwafa Bank التجاري وفا بنك,Attijariwafa Bank,,True,Maârif,2025-06-16T15:02:04Z,4,33.574417,-7.646808
+n8758665515,agence,Attijariwafa bank,False,Attijariwafa Bank,Attijariwafa Bank,,True,Anfa,2026-06-08T22:36:49Z,5,33.591758,-7.640785
+n9621158189,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Maârif,2025-08-23T21:01:21Z,3,33.577946,-7.625277
+n10029643517,agence,CIH Bank,True,CIH Bank,CIH Bank,,True,Roches noires,2026-04-16T15:17:09Z,3,33.599703,-7.581735
+n10119134949,agence,Crédit du Maroc,False,Crédit du Maroc,Crédit du Maroc,,True,Moulay Rachid,2022-10-21T16:31:44Z,1,33.572664,-7.553024
+n10119172494,agence,CIH Bank,True,CIH Bank (القرض العقاري والسياحي),CIH Bank,,True,Moulay Rachid,2026-03-04T06:07:20Z,5,33.570816,-7.555982
+n10173677596,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Anfa,2025-08-28T15:29:18Z,4,33.595086,-7.651329
+n5422792821,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Aïn-Chock,2025-10-13T21:00:12Z,8,33.535796,-7.64
+n5427254222,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Hay Hassani,2025-12-08T21:33:05Z,7,33.541204,-7.677102
+n6260970988,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Belyout,2025-12-08T02:54:49Z,3,33.600791,-7.63876
+n6345330801,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Sidi Belyout,2026-06-16T17:54:08Z,4,33.600664,-7.638116
+n6770445989,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Sidi Belyout,2025-11-20T17:14:17Z,5,33.592693,-7.607252
+n6772993985,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,3,33.595397,-7.507207
+n5467116459,agence,CIH Bank,True,CIH,,CIH,False,Hay Hassani,2018-03-09T12:14:26Z,1,33.558389,-7.693162
+n7169363037,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Sidi Bernoussi,2025-12-08T21:33:05Z,5,33.619428,-7.486181
+n11214425803,agence,BMCI,False,BMCI BANK,BMCI,,True,Al Fida,2025-04-07T16:56:51Z,2,33.570915,-7.596934
+n11410362976,gab,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Anfa,2025-12-08T21:33:05Z,3,33.596751,-7.670045
+n11413150598,gab,Al Barid Bank,False,,Al Barid Bank البريد بنك,Al Barid Bank البريد بنك,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.600197,-7.617019
+n11413175469,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2024-09-24T14:51:31Z,2,33.58777,-7.617452
+n5467116460,agence,Attijariwafa bank,False,Attijari wafa banque,Attijariwafa Bank,,True,Hay Hassani,2025-08-29T03:27:11Z,2,33.558526,-7.693268
+n11418145894,agence,CIH Bank,True,CIH Bank,CIH Bank,,True,Sidi Belyout,2024-03-25T09:43:20Z,4,33.589504,-7.627441
+n12113287995,gab,CIH Bank,True,,CIH Bank,CIH Bank,True,Hay Hassani,2024-08-16T08:18:30Z,2,33.565419,-7.657208
+n12114185163,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Hassani,2025-10-11T15:18:06Z,2,33.563801,-7.659752
+n12114294506,gab,Attijariwafa bank,False,,Attijariwafa Bank,Attijariwafa Bank,True,Hay Hassani,2024-08-16T08:19:26Z,1,33.563078,-7.663675
+n12119697644,gab,Attijariwafa bank,False,,Attijariwafa Bank,Attijariwafa Bank,True,Anfa,2024-08-19T06:17:50Z,1,33.597986,-7.664749
+n12165879143,gab,Attijariwafa bank,False,,Attijariwafa Bank,Attijariwafa Bank,True,Aïn-Chock,2024-09-09T16:44:39Z,1,33.54414,-7.639305
+n12273638308,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Hay Hassani,2025-08-26T19:26:18Z,3,33.566227,-7.651289
+n12278978280,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Maârif,2025-08-13T05:04:52Z,4,33.588043,-7.643276
+n12410141625,gab,Crédit du Maroc,False,,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,True,Anfa,2024-12-10T20:10:03Z,1,33.589694,-7.649582
+n12410141626,gab,BMCI,False,,BMCI,BMCI,True,Anfa,2024-12-10T20:10:03Z,1,33.587292,-7.648716
+n7350502985,agence,Crédit du Maroc,False,Crédit du Maroc مصرف المغرب,Crédit du Maroc مصرف المغرب,,True,Sidi Belyout,2025-03-25T18:28:18Z,2,33.592661,-7.632066
+n1464579552,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Roches noires,2026-06-10T14:53:43Z,2,33.59057,-7.603387
+n5467116461,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Hay Hassani,2025-08-23T19:06:46Z,4,33.558271,-7.693056
+n13853760242,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-06-04T00:11:42Z,2,33.581554,-7.636384
+w584749481,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Aïn-Chock,2025-08-23T19:06:46Z,4,33.537504,-7.585403
+w584749482,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,3,33.537335,-7.585736
+w584930166,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.598706,-7.524687
+w584971755,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.594927,-7.540714
+n13853760248,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2026-05-21T02:52:49Z,2,33.586326,-7.633047
+w587057825,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,4,33.620507,-7.531058
+w587334298,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,5,33.596567,-7.593068
+w587345440,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,4,33.61697,-7.496614
+n13853760249,agence,Attijariwafa bank,False,Attijariwafa bank التجاري وفا بنك,Attijariwafa bank التجاري وفا بنك,,True,Maârif,2026-05-21T02:52:49Z,2,33.586212,-7.632659
+w588233517,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Mohammadi,2025-06-21T14:38:35Z,8,33.583359,-7.552861
+w588459085,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Hay Mohammadi,2025-06-21T14:38:35Z,8,33.582378,-7.561335
+w588736073,agence,BMCI,False,BMCI Groupe BNP Paribas,BMCI,,True,Sidi Belyout,2026-06-06T18:48:06Z,3,33.59597,-7.615167
+n11214369150,agence,Umnia Bank,False,Umnia Bank أمنية بنك,Umnia Bank أمنية بنك,,True,Mers Sultan,2025-06-21T14:58:54Z,2,33.575298,-7.602131
+n13858905244,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Maârif,2026-05-22T18:11:24Z,2,33.587366,-7.63335
+w588788169,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,8,33.593849,-7.558991
+w588788181,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn Sebaâ,2025-06-21T14:38:35Z,8,33.592908,-7.562229
+w589076640,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,7,33.576421,-7.54049
+w589296666,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,8,33.593316,-7.582647
+n13858926003,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc القرض الفلاحي للمغرب,Crédit Agricole du Maroc القرض الفلاحي للمغرب,,True,Maârif,2026-05-22T18:11:24Z,2,33.588235,-7.634034
+n5581600715,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Al Fida,2025-06-21T14:38:35Z,3,33.565973,-7.584847
+w590233960,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,6,33.586342,-7.584736
+n5581601022,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Al Fida,2025-08-23T19:06:46Z,5,33.565422,-7.589053
+n5583278796,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.534462,-7.578834
+w590885813,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Moumen,2025-06-21T14:38:35Z,4,33.598235,-7.484902
+w590885952,agence,Banque Populaire,False,Banque Populaire البنك الشعبي,Banque Populaire البنك الشعبي,,True,Sidi Moumen,2025-08-23T19:06:46Z,5,33.601285,-7.483936
+w591035280,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Sidi Bernoussi,2025-06-21T14:38:35Z,8,33.607086,-7.519121
+n1464587460,agence,Saham Bank,False,Saham Bank سهام بنك,Saham Bank سهام بنك,,True,Anfa,2025-12-08T21:33:05Z,9,33.59684,-7.669915
+n5583467520,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Aïn-Chock,2025-06-21T14:38:35Z,4,33.550443,-7.602406
+w588736882,agence,Bank of Africa,False,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,Bank of Africa ⵍⴱⴰⵏⴽ ⵏ ⴰⴼⵔⵉⵇⵢⴰ بنك أفريقيا,,True,Roches noires,2025-06-21T14:38:35Z,7,33.578869,-7.563184
+w589327217,agence,Al Barid Bank,False,Al Barid Bank,,,False,Hay Mohammadi,2018-06-01T00:09:01Z,2,33.586466,-7.566855
+n11388157669,agence,Al Barid Bank,False,Al Barid,,,False,Sidi Belyout,2023-12-01T17:20:37Z,1,33.594576,-7.613053
+n10679505505,agence,Attijariwafa bank,False,التجاري وفا بنك,,,False,Moulay Rachid,2023-02-19T23:50:30Z,1,33.570126,-7.560371
+n11410363078,gab,Non identifiée,False,,,GFC Bank,False,Anfa,2026-07-13T15:27:54Z,3,33.596071,-7.676515
+n11410362890,gab,CIH Bank,True,,,CIH bank,False,Anfa,2025-07-20T17:17:30Z,2,33.594281,-7.678848
+n9031884717,agence,Al Barid Bank,False,البريد بنك وكالة افريقيا,,,False,Ben M'Sick,2021-08-24T10:54:34Z,1,33.554432,-7.587749
+n10540002309,agence,CIH Bank,True,,CIH Bank,,True,Sidi Belyout,2025-03-25T18:28:18Z,2,33.591307,-7.635206
+n11410363181,agence,Attijariwafa bank,False,,Attijariwafa Bank,,True,Sidi Belyout,2025-05-17T18:04:00Z,2,33.595111,-7.617883
+n11410363184,agence,CIH Bank,True,,CIH Bank,,True,Sidi Belyout,2025-05-17T13:58:00Z,2,33.593329,-7.615948
+n11413664272,agence,BMCI,False,,BMCI,,True,Sidi Belyout,2026-06-06T18:48:06Z,2,33.584431,-7.610829
+n12122617801,agence,Banque Populaire,False,Banque Centrale Populaire Centre Diouri,,,False,Sidi Belyout,2024-08-20T16:45:58Z,1,33.590564,-7.604941
+n12114294505,gab,CFG Bank,False,,,CFG,False,Hay Hassani,2024-08-16T08:19:26Z,1,33.563272,-7.663675
+n5685625695,agence,Crédit du Maroc,False,Crédit Du Maroc,,,False,Hay Hassani,2018-06-12T16:58:48Z,1,33.540459,-7.683068
+n5699706922,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Hay Hassani,2018-06-18T14:18:10Z,1,33.55262,-7.691143
+n12909627500,agence,BMCI,False,,BMCI,,True,Anfa,2025-06-12T14:37:03Z,1,33.594618,-7.650962
+n12909652403,agence,BMCI,False,,BMCI,,True,Anfa,2025-09-13T17:45:48Z,2,33.58745,-7.648755
+n5685894072,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2018-06-12T19:02:21Z,1,33.546805,-7.681105
+n5685981495,agence,Crédit du Maroc,False,Crédit Du Maroc,,,False,Hay Hassani,2018-06-12T19:37:54Z,1,33.544314,-7.678855
+n5685981512,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Hay Hassani,2018-06-12T19:37:54Z,1,33.546989,-7.68099
+n7168971478,agence,Dar Al Amane,False,Dar al amane,,,False,Sidi Bernoussi,2020-01-29T10:34:01Z,1,33.615892,-7.497915
+w595230182,agence,Crédit du Maroc,False,Credit Du Maroc,,,False,Hay Hassani,2018-06-07T21:49:47Z,1,33.559853,-7.67576
+n1464579578,agence,Attijariwafa bank,False,Attijariwafa,,,False,Roches noires,2011-10-12T23:10:03Z,1,33.594306,-7.595592
+n2901956588,agence,Attijariwafa bank,False,attijari wafa bank,,,False,Maârif,2014-06-05T22:12:32Z,1,33.574,-7.624588
+n3123841416,agence,Crédit Agricole du Maroc,False,Crédit Agricole,,,False,Hay Hassani,2016-03-13T23:25:06Z,2,33.5554,-7.684714
+n2714699188,agence,Attijariwafa bank,False,,Attijariwafa Bank,,True,Sidi Belyout,2025-06-05T11:56:09Z,3,33.598185,-7.632186
+n4808215821,agence,Non identifiée,False,Dar,,,False,Sidi Othmane,2017-04-22T18:55:31Z,2,33.55876,-7.551353
+n13327295644,agence,CIH Bank,True,,CIH Bank,,True,Hay Hassani,2025-11-24T01:12:22Z,1,33.567618,-7.658416
+n5673410258,agence,Attijariwafa bank,False,Attijarawafa Bank,,,False,Aïn-Chock,2018-06-07T19:38:51Z,1,33.515719,-7.654567
+n13020833002,gab,Attijariwafa bank,False,,,Attijariwafa bank,False,Hay Hassani,2025-07-24T12:09:04Z,1,33.572363,-7.669475
+n13013942001,gab,Banque Populaire,False,,,Banque populaire,False,Anfa,2025-07-20T17:01:52Z,1,33.596225,-7.669077
+n5673410240,agence,Attijariwafa bank,False,Attijarawafa Bank,,,False,Aïn-Chock,2018-06-07T19:38:51Z,1,33.511457,-7.656154
+n5673327591,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2018-06-07T18:56:36Z,1,33.550011,-7.676527
+n5670833143,agence,Al Barid Bank,False,Al Barid Bank,,,False,Aïn-Chock,2018-06-06T23:54:12Z,1,33.527815,-7.649594
+n5676427678,agence,Crédit du Maroc,False,Crédit Du Maroc,,,False,Hay Hassani,2018-06-08T21:17:48Z,1,33.552519,-7.68477
+n13021488303,gab,Attijariwafa bank,False,,,Attijariwafa bank,False,Hay Hassani,2025-07-24T18:59:03Z,1,33.565737,-7.676453
+n13075231933,agence,CIH Bank,True,,CIH Bank,,True,Maârif,2025-12-01T23:03:22Z,2,33.587856,-7.640374
+n13076749080,agence,CFG Bank,False,CFG Bank,,,False,Anfa,2025-08-17T22:46:00Z,1,33.592391,-7.642554
+n13082749386,agence,Autres banques,False,CaixaBank,,,False,Maârif,2026-06-19T16:26:56Z,2,33.590269,-7.637379
+n5664897329,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2018-06-04T22:24:14Z,1,33.559397,-7.676022
+n5667590621,gab,BMCI,False,,,BMCI,False,Hay Hassani,2019-05-28T08:38:46Z,3,33.564725,-7.668149
+n13021355501,gab,CIH Bank,True,,,CIH bank,False,Anfa,2026-07-13T15:27:54Z,2,33.596057,-7.677059
+n5667590623,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2019-05-28T08:33:32Z,2,33.564803,-7.668166
+n5668011891,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Hay Hassani,2026-07-10T18:42:27Z,2,33.572168,-7.674792
+n5657171591,agence,Autres banques,False,banque CIC,,,False,Sidi Belyout,2018-06-04T16:25:17Z,2,33.585401,-7.622175
+n5664415391,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2018-06-04T17:49:38Z,1,33.538784,-7.66772
+n5664415365,agence,Attijariwafa bank,False,Attijarawafa Bank,,,False,Hay Hassani,2018-06-04T17:49:37Z,1,33.537118,-7.669181
+n5664415356,agence,Crédit du Maroc,False,Crédit du Maroc,,,False,Hay Hassani,2018-06-04T17:49:37Z,1,33.537251,-7.669064
+n5664415335,agence,Attijariwafa bank,False,Attijarawafa Bank,,,False,Hay Hassani,2018-06-12T21:05:00Z,2,33.537425,-7.680066
+n5670372110,agence,BMCI,False,BMCI Bank,,,False,Hay Hassani,2018-06-19T23:01:07Z,3,33.566973,-7.68399
+n5654603744,agence,Al Barid Bank,False,Al Barid Bank,,,False,Aïn-Chock,2018-06-01T15:39:28Z,2,33.537072,-7.599614
+n5652472150,agence,CIH Bank,True,CIH,,,False,Aïn-Chock,2019-12-07T09:04:59Z,2,33.532396,-7.615508
+n5652530474,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc,,,False,Aïn-Chock,2018-06-01T15:39:21Z,2,33.542756,-7.585518
+n5638513889,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc,,,False,Maârif,2022-09-18T14:05:32Z,2,33.556601,-7.633256
+n5640584138,agence,BMCI,False,BMCI Bank,,,False,Maârif,2018-05-24T21:42:35Z,1,33.570007,-7.643331
+n5640389427,agence,Al Barid Bank,False,Al Barid Bank,,,False,Sidi Bernoussi,2018-05-31T21:34:04Z,2,33.610514,-7.509705
+n5657171593,agence,BTI Bank,False,Bti Bank,,,False,Sidi Belyout,2018-06-01T20:07:58Z,1,33.585544,-7.622089
+n13093050094,agence,Attijariwafa bank,False,,Attijariwafa Bank,,True,Hay Hassani,2025-08-23T20:35:35Z,1,33.556065,-7.683651
+n13093050095,agence,BMCI,False,,BMCI,,True,Hay Hassani,2025-08-23T20:35:35Z,1,33.555687,-7.684292
+n13096443199,agence,Attijariwafa bank,False,,Attijariwafa Bank,,True,Anfa,2025-08-25T13:32:59Z,1,33.586229,-7.679794
+n13096446816,agence,BMCI,False,,BMCI,,True,Maârif,2025-08-25T13:36:10Z,1,33.578624,-7.625502
+n13096450011,agence,Al Barid Bank,False,Al Barid Bank,,,False,Maârif,2025-11-22T17:04:03Z,2,33.569707,-7.644348
+n5657171549,agence,Arab Bank,False,Arab Bank,,,False,Sidi Belyout,2018-06-01T20:07:54Z,1,33.594083,-7.610614
+n5654832281,agence,Crédit Agricole du Maroc,False,Credit Agricole du Maroc,,,False,Mers Sultan,2018-06-01T18:03:10Z,2,33.568978,-7.603532
+n5652654439,agence,BMCI,False,BMCI Bank,,,False,Maârif,2018-05-30T23:49:41Z,1,33.568631,-7.625814
+n5654031755,gab,CFG Bank,False,CFG Bank,,,False,Maârif,2024-09-23T23:58:07Z,2,33.586814,-7.649076
+n5633153195,agence,BMCI,False,BMCI Bank,,,False,Sidi Othmane,2018-05-21T16:51:27Z,1,33.562286,-7.553484
+n13121564881,agence,CIH Bank,True,,CIH Bank,,True,Maârif,2026-05-20T17:25:37Z,2,33.577524,-7.637259
+n13201401917,gab,Attijariwafa bank,False,,,Attijariwafa Bank,False,Maârif,2025-10-07T19:31:40Z,2,33.58718,-7.639231
+n5636127366,agence,CIH Bank,True,CH Bank,,,False,Roches noires,2018-05-22T23:01:26Z,2,33.59098,-7.602582
+n5627479982,agence,BMCI,False,BMCI Bank,,,False,Moulay Rachid,2018-05-21T14:25:58Z,2,33.567687,-7.540281
+n5626812800,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Sbata,2018-05-18T14:11:11Z,1,33.538185,-7.552559
+n5638347796,agence,BMCI,False,BMCI Bank,,,False,Maârif,2018-05-23T20:09:35Z,1,33.58285,-7.632615
+n5636200646,agence,CFG Bank,False,CFG Bank,,,False,Maârif,2025-08-23T21:01:21Z,2,33.582846,-7.625532
+n13203327483,agence,Bank of Africa,False,Bank of Africa,,,False,Sidi Belyout,2025-10-08T18:27:50Z,1,33.591806,-7.630706
+n5595616190,agence,Crédit du Maroc,False,Credit du Maroc,,,False,Sbata,2018-05-04T04:01:59Z,1,33.537391,-7.573291
+n5595616132,agence,Crédit du Maroc,False,Crédit du Maroc,,,False,Sbata,2018-05-04T04:01:57Z,1,33.541409,-7.572087
+n5608044184,agence,Crédit du Maroc,False,Credit du Maroc,,,False,Ben M'Sick,2018-05-09T21:50:46Z,1,33.5567,-7.585067
+n5608199913,agence,Crédit du Maroc,False,Credit du Maroc,,,False,Ben M'Sick,2018-05-09T23:18:10Z,1,33.551005,-7.580415
+n5618306045,agence,CIH Bank,True,CIH,,,False,Sidi Moumen,2018-05-14T20:22:11Z,1,33.591134,-7.517368
+n5618305973,agence,Crédit du Maroc,False,Credit du Maroc,,,False,Sidi Moumen,2018-05-14T20:22:10Z,1,33.579742,-7.542527
+n5625001488,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Sbata,2018-05-17T16:53:17Z,1,33.539917,-7.568081
+w596626952,agence,Crédit Agricole du Maroc,False,Crédit Agricole du Maroc,,,False,Hay Hassani,2018-06-11T18:58:07Z,1,33.555907,-7.681259
+w594720512,agence,Crédit Agricole du Maroc,False,Credit Agricole Du Maroc,,,False,Hay Hassani,2018-06-06T18:19:01Z,1,33.566346,-7.683726
+n2681851842,agence,Attijariwafa bank,False,wafa banc,,,False,Sbata,2014-02-20T11:03:46Z,1,33.54163,-7.56594
+n5291949614,gab,Bank of Africa,False,,,BMCE BANK,False,Sidi Moumen,2017-12-18T16:26:21Z,1,33.574016,-7.528497
+n4368577890,agence,Attijariwafa bank,False,attijari bank التجاري بنك,,,False,Hay Hassani,2016-08-28T23:38:53Z,2,33.546808,-7.681786
+n3120507342,agence,Attijariwafa bank,False,Attijawirafa,,,False,Roches noires,2014-10-09T12:51:12Z,1,33.591056,-7.590509
+n3207518715,agence,Banque Populaire,False,Chaabi bank,,,False,Sidi Belyout,2014-11-27T12:43:27Z,1,33.592705,-7.626598
+n4193574899,agence,Al Barid Bank,False,Al Barid Bank,,,False,Sidi Belyout,2016-05-18T15:14:23Z,1,33.594918,-7.613308
+n5294020462,gab,Bank of Africa,False,,,BMCE BANK,False,Sidi Bernoussi,2017-12-19T16:14:52Z,1,33.611552,-7.513465
+n13332643820,agence,Attijariwafa bank,False,,Attijariwafa Bank,,True,Anfa,2025-11-25T22:44:22Z,1,33.598178,-7.643233
+n5583467954,agence,Attijariwafa bank,False,Attijarlwafa Bank,,,False,Aïn-Chock,2018-06-01T15:39:11Z,2,33.536745,-7.596876
+n5589310397,agence,BMCI,False,BMCI Bank,,,False,Aïn-Chock,2018-06-01T15:39:15Z,2,33.539423,-7.593161
+n5589310409,agence,Attijariwafa bank,False,Bank Attijariwafa,,,False,Aïn-Chock,2018-06-01T15:39:15Z,3,33.537162,-7.587387
+n5589310404,agence,Crédit du Maroc,False,Crédit du Maroc,,,False,Aïn-Chock,2018-06-01T15:39:15Z,2,33.538835,-7.59173
+n5590930835,agence,Crédit du Maroc,False,Crédit du Maroc,,,False,Al Fida,2025-02-03T18:27:55Z,2,33.56382,-7.592294
+n5579551181,agence,Banque Populaire,False,Banque Populare,,,False,Mers Sultan,2018-04-26T02:21:13Z,1,33.584318,-7.597906
+n5579479022,agence,Banque Populaire,False,Banque Popular,,,False,Roches noires,2018-04-26T01:02:05Z,1,33.587929,-7.599483
+n5581263522,agence,Non identifiée,False,BMC Bank,,,False,Mers Sultan,2018-04-26T20:30:27Z,1,33.577575,-7.599683
+n5583467518,agence,Attijariwafa bank,False,Attijarlwafa Bank,,,False,Aïn-Chock,2018-06-01T15:39:10Z,2,33.550273,-7.602362
+n5583467939,agence,Crédit Agricole du Maroc,False,Credit Agricole du Maroc,,,False,Aïn-Chock,2018-06-01T15:39:10Z,2,33.548137,-7.602087
+n5294020463,gab,BMCI,False,,,BMCI,False,Sidi Bernoussi,2017-12-19T16:14:52Z,1,33.611617,-7.513318
+n13850665331,agence,CFG Bank,False,CFG Bank,,,False,Maârif,2026-05-19T21:21:27Z,1,33.588915,-7.634317
+n5427254224,agence,CIH Bank,True,cih,,,False,Hay Hassani,2026-09-01T12:21:08Z,5,33.540947,-7.676914
+n5314907628,agence,Banque Populaire,False,,Banque Populaire,,True,Sidi Belyout,2025-03-25T18:50:43Z,2,33.605579,-7.628958
+n5427254225,agence,Al Barid Bank,False,barid,,,False,Hay Hassani,2026-09-01T12:21:08Z,5,33.541107,-7.676741
+n5045516126,agence,Crédit du Maroc,False,crédit du maroc مصرف المغرب,,,False,Aïn-Chock,2017-08-22T10:58:59Z,2,33.546341,-7.595402
+n5198401222,agence,Attijariwafa bank,False,attijariwafa,,,False,Aïn Sebaâ,2021-07-03T21:45:00Z,3,33.606693,-7.539339
+n14011129601,gab,Saham Bank,False,,,Saham Bank,False,Anfa,2026-07-13T18:10:41Z,1,33.595698,-7.677064
+n13924289498,agence,BMCI,False,BMCI البنك المغربي للتجارة والصناعة,,,False,Maârif,2026-06-09T22:06:38Z,1,33.582201,-7.632792
+n13921293035,agence,Saham Bank,False,Saham Bank سهام بنك,,,False,Anfa,2026-06-08T22:36:49Z,1,33.592651,-7.637427
+n13901648084,agence,Saham Bank,False,Saham Bank,,,False,Maârif,2026-06-01T14:03:11Z,1,33.581246,-7.628157
+n13853572848,agence,Saham Bank,False,Saham Bank سهام بنك,,,False,Maârif,2026-05-20T17:00:46Z,1,33.57725,-7.634942
+n4315501590,agence,CIH Bank,True,CIH,,,False,Roches noires,2016-07-22T10:40:28Z,1,33.591357,-7.595072
+n4221347650,agence,Crédit du Maroc,False,Crédit du Maroc,,,False,Roches noires,2016-06-02T10:20:00Z,1,33.590252,-7.593033
+n10296749916,gab,Non identifiée,False,,,,False,Maârif,2022-12-31T13:01:05Z,1,33.554915,-7.631608
+n11413680774,agence,Non identifiée,False,,,,False,Mers Sultan,2023-12-12T23:32:01Z,1,33.57675,-7.60449
+n11410363380,gab,Non identifiée,False,,,,False,Anfa,2026-07-30T14:55:05Z,2,33.605965,-7.65746
+n11410363081,agence,Non identifiée,False,,,,False,Sidi Belyout,2023-12-11T18:16:30Z,1,33.593394,-7.615713
+n11413664281,agence,Non identifiée,False,,,,False,Sidi Belyout,2023-12-12T23:32:40Z,1,33.588451,-7.618045
+n11067495005,gab,Non identifiée,False,,,,False,Sidi Belyout,2023-07-25T18:33:05Z,1,33.598097,-7.613788
+n1746905783,gab,Non identifiée,False,,,,False,Sidi Belyout,2014-12-11T12:30:05Z,2,33.59514,-7.627338
+n10292637409,agence,Attijariwafa bank,False,,,,False,Sidi Belyout,2022-12-29T06:39:37Z,1,33.590112,-7.626023
+n12113287994,gab,Non identifiée,False,,,,False,Hay Hassani,2024-08-15T21:07:35Z,1,33.563738,-7.659836
+n6260970490,agence,Non identifiée,False,,,,False,Sidi Belyout,2019-02-06T01:41:51Z,1,33.600679,-7.634544
+n6260971189,agence,Non identifiée,False,,,,False,Sidi Belyout,2019-02-06T01:50:43Z,1,33.600818,-7.637461
+n7168801065,agence,Non identifiée,False,,,,False,Sidi Bernoussi,2020-01-29T09:13:07Z,1,33.613238,-7.493226
+n10584390105,gab,Non identifiée,False,,,,False,Aïn-Chock,2023-01-26T15:49:42Z,1,33.55045,-7.597739
+n10599837505,agence,Non identifiée,False,,,,False,Aïn-Chock,2023-02-01T20:06:06Z,1,33.550215,-7.598215
+n5636182830,agence,Non identifiée,False,,,,False,Maârif,2018-05-22T23:09:38Z,1,33.582038,-7.623822
+n5652530475,agence,Non identifiée,False,,,,False,Aïn-Chock,2018-06-01T15:39:21Z,2,33.542792,-7.585376
+n5314927521,agence,Non identifiée,False,,,,False,Sidi Belyout,2025-07-28T20:59:08Z,2,33.605829,-7.629113
+n13796553101,gab,Non identifiée,False,,,,False,Sidi Moumen,2026-05-04T19:28:16Z,1,33.59356,-7.4955
+n13640447301,gab,Non identifiée,False,,,,False,Moulay Rachid,2026-03-12T08:29:01Z,1,33.561804,-7.533791
+n13230531901,gab,Non identifiée,False,,,,False,Aïn-Chock,2025-10-13T14:06:52Z,1,33.506643,-7.630303
+n5315385622,gab,Non identifiée,False,,,,False,Roches noires,2018-01-01T21:40:19Z,1,33.590455,-7.602821
+n5579366271,gab,Non identifiée,False,,,,False,Roches noires,2018-06-01T15:39:07Z,3,33.593689,-7.603059
+n5467116468,agence,Non identifiée,False,,,,False,Hay Hassani,2018-03-09T12:14:26Z,1,33.560682,-7.691276
+n4523372989,agence,Non identifiée,False,,,,False,Sidi Othmane,2016-11-26T14:21:19Z,1,33.563572,-7.562918
+n14039900340,agence,Non identifiée,False,,,,False,Hay Hassani,2026-07-22T16:31:57Z,1,33.563844,-7.664338
+n14046315909,gab,Non identifiée,False,,,,False,Maârif,2026-07-24T16:28:26Z,1,33.572155,-7.642149
+n4193613534,gab,Non identifiée,False,,,,False,Sidi Belyout,2025-05-20T22:24:24Z,2,33.599765,-7.612584
+n4193612261,gab,Non identifiée,False,,,,False,Sidi Belyout,2025-05-20T22:24:46Z,2,33.599422,-7.612947
+n14145159069,agence,Non identifiée,False,,,,False,Hay Hassani,2026-09-03T18:56:11Z,1,33.547964,-7.68323

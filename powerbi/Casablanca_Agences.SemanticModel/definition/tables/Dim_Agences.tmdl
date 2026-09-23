@@ -1,0 +1,79 @@
+table Dim_Agences
+
+	column osm_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: osm_id
+
+	column type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: type
+
+	column marque
+		dataType: string
+		summarizeBy: none
+		sourceColumn: marque
+
+	column est_client
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: est_client
+
+	column name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: name
+
+	column brand
+		dataType: string
+		summarizeBy: none
+		sourceColumn: brand
+
+	column operator
+		dataType: string
+		summarizeBy: none
+		sourceColumn: operator
+
+	column marque_osm_renseignee
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: marque_osm_renseignee
+
+	column arrondissement
+		dataType: string
+		summarizeBy: none
+		dataCategory: Place
+		sourceColumn: arrondissement
+
+	column derniere_modif_osm
+		dataType: string
+		summarizeBy: none
+		sourceColumn: derniere_modif_osm
+
+	column version_osm
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: version_osm
+
+	column lat
+		dataType: double
+		summarizeBy: none
+		dataCategory: Latitude
+		sourceColumn: lat
+
+	column lon
+		dataType: double
+		summarizeBy: none
+		dataCategory: Longitude
+		sourceColumn: lon
+
+	partition Dim_Agences = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "dim_agences.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"osm_id", type text}, {"type", type text}, {"marque", type text}, {"est_client", type logical}, {"name", type text}, {"brand", type text}, {"operator", type text}, {"marque_osm_renseignee", type logical}, {"arrondissement", type text}, {"derniere_modif_osm", type text}, {"version_osm", Int64.Type}, {"lat", type number}, {"lon", type number}}, "en-US")
+				in
+				    Types

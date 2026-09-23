@@ -1,0 +1,77 @@
+table Huff_Candidats
+
+	column h3
+		dataType: string
+		summarizeBy: none
+		sourceColumn: h3
+
+	column arrondissement
+		dataType: string
+		summarizeBy: none
+		dataCategory: Place
+		sourceColumn: arrondissement
+
+	column rang_score
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang_score
+
+	column score_100
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: score_100
+
+	column clients_captes
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: clients_captes
+
+	column cannibalisation_client
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: cannibalisation_client
+
+	column gain_net_client
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: gain_net_client
+
+	column part_captee_zone_5km_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: part_captee_zone_5km_pct
+
+	column part_client_avant_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: part_client_avant_pct
+
+	column part_client_apres_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: part_client_apres_pct
+
+	column rang_huff
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang_huff
+
+	column recommande
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: recommande
+
+	column rang_recommandation
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang_recommandation
+
+	partition Huff_Candidats = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "huff_candidats.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"h3", type text}, {"arrondissement", type text}, {"rang_score", Int64.Type}, {"score_100", type number}, {"clients_captes", Int64.Type}, {"cannibalisation_client", Int64.Type}, {"gain_net_client", Int64.Type}, {"part_captee_zone_5km_pct", type number}, {"part_client_avant_pct", type number}, {"part_client_apres_pct", type number}, {"rang_huff", Int64.Type}, {"recommande", type logical}, {"rang_recommandation", Int64.Type}}, "en-US")
+				in
+				    Types

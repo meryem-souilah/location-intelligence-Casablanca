@@ -1,0 +1,15 @@
+table 'Poids Attractivite'
+
+	column 'Poids Attractivite'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+	measure 'Valeur Poids Attractivite' = SELECTEDVALUE ( 'Poids Attractivite'[Poids Attractivite], 20 )
+		formatString: 0
+
+	partition 'Poids Attractivite' = calculated
+		mode: import
+		source = GENERATESERIES ( 0, 100, 5 )

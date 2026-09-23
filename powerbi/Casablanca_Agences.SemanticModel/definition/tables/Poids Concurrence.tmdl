@@ -1,0 +1,15 @@
+table 'Poids Concurrence'
+
+	column 'Poids Concurrence'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+	measure 'Valeur Poids Concurrence' = SELECTEDVALUE ( 'Poids Concurrence'[Poids Concurrence], 25 )
+		formatString: 0
+
+	partition 'Poids Concurrence' = calculated
+		mode: import
+		source = GENERATESERIES ( 0, 100, 5 )

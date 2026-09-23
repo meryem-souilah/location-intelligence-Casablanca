@@ -1,0 +1,37 @@
+table Qualite_Calage
+
+	column arrondissement
+		dataType: string
+		summarizeBy: none
+		dataCategory: Place
+		sourceColumn: arrondissement
+
+	column kontur
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: kontur
+
+	column hcp_2024
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: hcp_2024
+
+	column facteur_calage
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: facteur_calage
+
+	column ecart_kontur_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: ecart_kontur_pct
+
+	partition Qualite_Calage = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "qualite_calage_hcp.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"arrondissement", type text}, {"kontur", Int64.Type}, {"hcp_2024", Int64.Type}, {"facteur_calage", type number}, {"ecart_kontur_pct", type number}}, "en-US")
+				in
+				    Types

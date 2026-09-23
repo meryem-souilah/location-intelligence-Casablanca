@@ -1,0 +1,56 @@
+{
+  "config": "{\"version\": \"5.43\", \"activeSectionIndex\": 0}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "name": "Page1",
+      "displayName": "Vue exécutive",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": []
+    },
+    {
+      "name": "Page2",
+      "displayName": "Analyse concurrentielle",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": []
+    },
+    {
+      "name": "Page3",
+      "displayName": "Simulateur",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": []
+    },
+    {
+      "name": "Page4",
+      "displayName": "Fiche zone",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": []
+    },
+    {
+      "name": "Page5",
+      "displayName": "Qualité des données",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": []
+    }
+  ]
+}

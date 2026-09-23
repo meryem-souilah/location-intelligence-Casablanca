@@ -1,0 +1,31 @@
+table Robustesse
+
+	column scenario
+		dataType: string
+		summarizeBy: none
+		sourceColumn: scenario
+
+	column h3
+		dataType: string
+		summarizeBy: none
+		sourceColumn: h3
+
+	column rang
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang
+
+	column dans_top20
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: dans_top20
+
+	partition Robustesse = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "robustesse_scenarios.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"scenario", type text}, {"h3", type text}, {"rang", Int64.Type}, {"dans_top20", type logical}}, "en-US")
+				in
+				    Types

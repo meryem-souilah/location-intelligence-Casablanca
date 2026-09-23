@@ -1,0 +1,309 @@
+table Fait_Hexagones
+
+	column h3
+		dataType: string
+		summarizeBy: none
+		sourceColumn: h3
+
+	column lat
+		dataType: double
+		summarizeBy: none
+		dataCategory: Latitude
+		sourceColumn: lat
+
+	column lon
+		dataType: double
+		summarizeBy: none
+		dataCategory: Longitude
+		sourceColumn: lon
+
+	column arrondissement
+		dataType: string
+		summarizeBy: none
+		dataCategory: Place
+		sourceColumn: arrondissement
+
+	column population_kontur
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: population_kontur
+
+	column population
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: population
+
+	column pop_k1
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: pop_k1
+
+	column n_concurrents_1km
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_concurrents_1km
+
+	column n_agences_client_1km
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_agences_client_1km
+
+	column dist_concurrent_m
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: dist_concurrent_m
+
+	column dist_agence_client_m
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: dist_agence_client_m
+
+	column hab_par_agence_1km
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: hab_par_agence_1km
+
+	column dist_transport_m
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: dist_transport_m
+
+	column mode_transport_proche
+		dataType: string
+		summarizeBy: none
+		sourceColumn: mode_transport_proche
+
+	column station_proche
+		dataType: string
+		summarizeBy: none
+		sourceColumn: station_proche
+
+	column dist_axe_m
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: dist_axe_m
+
+	column n_commerce
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_commerce
+
+	column n_restauration
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_restauration
+
+	column n_bureau
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_bureau
+
+	column n_sante
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_sante
+
+	column n_enseignement_sup
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_enseignement_sup
+
+	column n_centre_commercial
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: n_centre_commercial
+
+	column attractivite_brute_k1
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: attractivite_brute_k1
+
+	column demande_norm
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: demande_norm
+
+	column concurrence_norm
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: concurrence_norm
+
+	column accessibilite_norm
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: accessibilite_norm
+
+	column attractivite_norm
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: attractivite_norm
+
+	column exclu
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: exclu
+
+	column motif_exclusion
+		dataType: string
+		summarizeBy: none
+		sourceColumn: motif_exclusion
+
+	column score
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: score
+
+	column rang
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang
+
+	column score_100
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: score_100
+
+	column candidat_huff
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: candidat_huff
+
+	column recommande
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: recommande
+
+	column rang_recommandation
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang_recommandation
+
+	column axe_proche
+		dataType: string
+		summarizeBy: none
+		sourceColumn: axe_proche
+
+	column wkt
+		dataType: string
+		summarizeBy: none
+		isHidden
+		sourceColumn: wkt
+
+	column clients_captes
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: clients_captes
+
+	column cannibalisation_client
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: cannibalisation_client
+
+	column gain_net_client
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: gain_net_client
+
+	column rang_huff
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rang_huff
+
+	measure 'Total Poids' =
+			[Valeur Poids Demande] + [Valeur Poids Concurrence] + [Valeur Poids Accessibilite] + [Valeur Poids Attractivite]
+		formatString: 0
+
+	measure 'Score Dynamique' =
+			VAR wD = [Valeur Poids Demande]
+			VAR wC = [Valeur Poids Concurrence]
+			VAR wA = [Valeur Poids Accessibilite]
+			VAR wT = [Valeur Poids Attractivite]
+			VAR s =
+			    DIVIDE (
+			        wD * AVERAGE ( Fait_Hexagones[demande_norm] )
+			            + wC * ( 1 - AVERAGE ( Fait_Hexagones[concurrence_norm] ) )
+			            + wA * AVERAGE ( Fait_Hexagones[accessibilite_norm] )
+			            + wT * AVERAGE ( Fait_Hexagones[attractivite_norm] ),
+			        wD + wC + wA + wT
+			    )
+			RETURN
+			    IF ( SELECTEDVALUE ( Fait_Hexagones[exclu] ) = TRUE (), BLANK (), s * 100 )
+		formatString: 0.0
+
+	measure 'Rang Dynamique' =
+			IF (
+			    HASONEVALUE ( Fait_Hexagones[h3] ) && NOT ISBLANK ( [Score Dynamique] ),
+			    RANKX (
+			        FILTER ( ALLSELECTED ( Fait_Hexagones[h3] ), NOT ISBLANK ( [Score Dynamique] ) ),
+			        [Score Dynamique], , DESC, DENSE
+			    )
+			)
+		formatString: 0
+
+	measure 'Top 10 Dynamique' =
+			IF ( [Rang Dynamique] <= 10, 1, 0 )
+		formatString: 0
+
+	measure 'Couleur Score' =
+			VAR s = [Score Dynamique]
+			RETURN
+			    SWITCH ( TRUE (),
+			        ISBLANK ( s ), "#E1E0D9",
+			        s >= 80, "#0D366B",
+			        s >= 70, "#256ABF",
+			        s >= 60, "#3987E5",
+			        s >= 50, "#86B6EF",
+			        "#CDE2FB" )
+
+	measure 'Message Poids' =
+			IF ( [Total Poids] = 0, "Choisissez au moins un poids",
+			    "Poids appliqués : Demande " & FORMAT ( DIVIDE ( [Valeur Poids Demande], [Total Poids] ), "0%" )
+			        & " · Concurrence " & FORMAT ( DIVIDE ( [Valeur Poids Concurrence], [Total Poids] ), "0%" )
+			        & " · Accès " & FORMAT ( DIVIDE ( [Valeur Poids Accessibilite], [Total Poids] ), "0%" )
+			        & " · Attractivité " & FORMAT ( DIVIDE ( [Valeur Poids Attractivite], [Total Poids] ), "0%" ) )
+
+	measure 'Population Totale' =
+			SUM ( Dim_Arrondissement[population] )
+		formatString: #,0
+
+	measure 'Nb Agences' =
+			CALCULATE ( COUNTROWS ( Dim_Agences ), Dim_Agences[type] = "agence" )
+		formatString: #,0
+
+	measure 'Nb Agences Client' =
+			CALCULATE ( [Nb Agences], Dim_Agences[est_client] = TRUE () )
+		formatString: #,0
+
+	measure 'Part Agences Client' =
+			DIVIDE ( [Nb Agences Client], [Nb Agences] )
+		formatString: 0.0%
+
+	measure 'Habitants par Agence' =
+			DIVIDE ( [Population Totale], [Nb Agences] )
+		formatString: #,0
+
+	measure 'Gain Net Recommandations' =
+			CALCULATE ( SUM ( Fait_Hexagones[gain_net_client] ), Fait_Hexagones[recommande] = TRUE () )
+		formatString: #,0
+
+	measure 'Zones Blanches' =
+			CALCULATE ( COUNTROWS ( Fait_Hexagones ), Fait_Hexagones[n_concurrents_1km] = 0, Fait_Hexagones[pop_k1] >= 50000 )
+		formatString: 0
+
+	measure 'Alertes Qualite' =
+			CALCULATE ( COUNTROWS ( Qualite_Regles ), Qualite_Regles[statut] = "Alerte" )
+		formatString: 0
+
+	measure 'Regles Conformes' =
+			CALCULATE ( COUNTROWS ( Qualite_Regles ), Qualite_Regles[statut] = "Conforme" )
+		formatString: 0
+
+	partition Fait_Hexagones = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "fait_hexagones.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"h3", type text}, {"lat", type number}, {"lon", type number}, {"arrondissement", type text}, {"population_kontur", Int64.Type}, {"population", Int64.Type}, {"pop_k1", Int64.Type}, {"n_concurrents_1km", Int64.Type}, {"n_agences_client_1km", Int64.Type}, {"dist_concurrent_m", Int64.Type}, {"dist_agence_client_m", Int64.Type}, {"hab_par_agence_1km", Int64.Type}, {"dist_transport_m", Int64.Type}, {"mode_transport_proche", type text}, {"station_proche", type text}, {"dist_axe_m", Int64.Type}, {"n_commerce", Int64.Type}, {"n_restauration", Int64.Type}, {"n_bureau", Int64.Type}, {"n_sante", Int64.Type}, {"n_enseignement_sup", Int64.Type}, {"n_centre_commercial", Int64.Type}, {"attractivite_brute_k1", type number}, {"demande_norm", type number}, {"concurrence_norm", type number}, {"accessibilite_norm", type number}, {"attractivite_norm", type number}, {"exclu", type logical}, {"motif_exclusion", type text}, {"score", type number}, {"rang", Int64.Type}, {"score_100", type number}, {"candidat_huff", type logical}, {"recommande", type logical}, {"rang_recommandation", Int64.Type}, {"axe_proche", type text}, {"wkt", type text}, {"clients_captes", Int64.Type}, {"cannibalisation_client", Int64.Type}, {"gain_net_client", Int64.Type}, {"rang_huff", Int64.Type}}, "en-US")
+				in
+				    Types

@@ -1,0 +1,47 @@
+table Qualite_Arrondissements
+
+	column arrondissement
+		dataType: string
+		summarizeBy: none
+		dataCategory: Place
+		sourceColumn: arrondissement
+
+	column agences
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: agences
+
+	column agences_identifiees
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: agences_identifiees
+
+	column agences_avec_tag_brand
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: agences_avec_tag_brand
+
+	column population
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: population
+
+	column pct_identifiees
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: pct_identifiees
+
+	column pct_tag_brand
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: pct_tag_brand
+
+	partition Qualite_Arrondissements = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierGold & "qualite_arrondissements.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    EnTetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(EnTetes, {{"arrondissement", type text}, {"agences", Int64.Type}, {"agences_identifiees", Int64.Type}, {"agences_avec_tag_brand", Int64.Type}, {"population", Int64.Type}, {"pct_identifiees", type number}, {"pct_tag_brand", type number}}, "en-US")
+				in
+				    Types

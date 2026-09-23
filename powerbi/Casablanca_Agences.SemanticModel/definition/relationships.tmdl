@@ -1,0 +1,26 @@
+relationship rel_01
+	fromColumn: Fait_Hexagones.arrondissement
+	toColumn: Dim_Arrondissement.arrondissement
+
+relationship rel_02
+	fromColumn: Dim_Agences.arrondissement
+	toColumn: Dim_Arrondissement.arrondissement
+
+relationship rel_03
+	fromColumn: Dim_Agences.marque
+	toColumn: Dim_Marque.marque
+
+relationship rel_04
+	fromColumn: Huff_Candidats.h3
+	toColumn: Fait_Hexagones.h3
+	fromCardinality: one
+	toCardinality: one
+	crossFilteringBehavior: bothDirections
+
+relationship rel_05
+	fromColumn: Huff_Flux.h3_candidat
+	toColumn: Huff_Candidats.h3
+
+relationship rel_06
+	fromColumn: Qualite_Arrondissements.arrondissement
+	toColumn: Dim_Arrondissement.arrondissement

@@ -1,0 +1,15 @@
+table 'Poids Accessibilite'
+
+	column 'Poids Accessibilite'
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+	measure 'Valeur Poids Accessibilite' = SELECTEDVALUE ( 'Poids Accessibilite'[Poids Accessibilite], 20 )
+		formatString: 0
+
+	partition 'Poids Accessibilite' = calculated
+		mode: import
+		source = GENERATESERIES ( 0, 100, 5 )

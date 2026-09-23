@@ -1,0 +1,17 @@
+﻿id,dimension,regle,valeur,seuil,commentaire,statut
+Q01,Complétude,Agences OSM portant un tag brand,84.2 %,≥ 80 %,"Sans tag brand, la marque doit être déduite du nom : source d'erreur.",Conforme
+Q02,Complétude,Agences rattachées à une marque après harmonisation,97.8 %,≥ 95 %,16 agences restent « Non identifiée » (comptées comme concurrentes).,Conforme
+Q03,Conformité,Libellés bruts ramenés au référentiel de marques,98 → 18,Référentiel unique,Voir locintel/brands.py (données de référence).,Info
+Q04,Unicité,Doublons supprimés (même marque à < 40 m),10 (1.3 %),≤ 5 %,Souvent un nœud + le contour du bâtiment de la même agence.,Conforme
+Q05,Validité,Objets tagués banque qui n'en sont pas,25,Exclus,"Transfert d'argent, crédit conso, assurance, banque centrale : AXA, Baird Cash, Bank Al-Maghrib بنك المغرب, Barid Cash, Bureau de change, Cima",Info
+Q06,Complétude,GAB cartographiés par agence,0.07,≥ 1,Les GAB sont très sous-cartographiés dans OSM : ils sont exclus de l'indicateur de concurrence.,Alerte
+Q07,Couverture,Agences hors des 16 arrondissements,0,0,"Agences situées dans la commune mais hors polygone d'arrondissement (Méchouar, bordures).",Conforme
+Q08,Cohérence,Écart population Kontur vs RGPH 2024 (HCP),-1.7 %,± 10 %,Kontur : 3 162 620 hab. ; HCP : 3 215 935 hab.,Conforme
+Q09,Complétude,Hexagones de la commune sans population,1,Info,"Port, aéroport d'Anfa, zones industrielles, parcs : normal.",Info
+Q10,Fraîcheur,Âge de la population Kontur,35 mois,≤ 36 mois,Référence 2023-11-01. OSM extrait le 2026-09-23.,Conforme
+Q11,Exactitude,Échantillon d'agences vérifié sur le terrain / Google Maps,À réaliser,≥ 90 % confirmées,Remplir data/gold/verification_terrain.csv (30 agences tirées au hasard).,À faire
+Q12,Licence,Attribution OSM (ODbL) et Kontur (CC BY 4.0) affichées,Oui,Obligatoire,"Présente dans le README, chaque carte et data/gold/ATTRIBUTION.txt ; à reproduire en pied de page de chaque page Power BI.",Conforme
+Q13,Exactitude,Écart max Kontur vs RGPH 2024 par arrondissement,125.4 % (Maârif),± 15 %,"Juste au total, faux dans la répartition : corrigé par calage (voir qualite_calage_hcp.csv).",Alerte
+Q14,Exactitude,Hexagones au plafond de Kontur (≥ 36 900 hab.),30,0,Kontur sature dans les quartiers les plus denses : la demande y est sous-estimée et mal départagée.,Alerte
+Q15,Conformité,Chiffres de calage identiques au fichier officiel HCP,16 / 16,16 / 16,Source : hcp_rgph2024_population_legale.xlsx,Conforme
+Q16,Fraîcheur,Agences modifiées dans OSM depuis moins de 3 ans,73.7 %,≥ 80 %,"Pic de modifications en 2025 (412 agences) : probablement une mise à jour de masse des marques, pas une vérification terrain. Une date récente ne prouve donc pas que l'agence existe : seul le contrôle Q11 le fait.",Alerte
